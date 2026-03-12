@@ -1,0 +1,160 @@
+:root {
+	/* Colors */
+	--color-bg-primary: #F5F1E8;
+	--color-bg-secondary: #EDE8DD;
+	--color-accent-earth: #8B7355;
+	--color-accent-nature: #4A5D23;
+	--color-accent-water: #5B7C8D;
+	--color-text-primary: #3D3D3D;
+	--color-text-light: #F5F1E8;
+	
+	/* Typography */
+	--font-heading: 'Cormorant Garamond', serif;
+	--font-body: 'Crimson Text', serif;
+	--font-accent: 'Source Serif Pro', serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-body);
+	background: var(--color-bg-primary);
+	color: var(--color-text-primary);
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-heading);
+	font-weight: 600;
+	line-height: 1.2;
+	color: var(--color-text-primary);
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+a {
+	color: var(--color-accent-earth);
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+a:hover {
+	color: var(--color-accent-nature);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* Page layout */
+.page-content {
+	padding-top: 80px;
+	min-height: 100vh;
+}
+
+/* Container */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.container-wide {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+/* Section spacing */
+section {
+	padding: 4rem 0;
+}
+
+/* Button styles */
+.btn {
+	display: inline-block;
+	padding: 0.875rem 1.5rem;
+	font-family: var(--font-body);
+	font-size: 0.95rem;
+	border: 1px solid var(--color-accent-earth);
+	background: transparent;
+	color: var(--color-accent-earth);
+	cursor: pointer;
+	transition: all 0.2s;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background: var(--color-accent-earth);
+	color: var(--color-text-light);
+}
+
+.btn-primary {
+	background: var(--color-accent-earth);
+	color: var(--color-text-light);
+	border-color: var(--color-accent-earth);
+}
+
+.btn-primary:hover {
+	background: var(--color-accent-nature);
+	border-color: var(--color-accent-nature);
+}
+
+/* Card styles */
+.card {
+	background: var(--color-bg-secondary);
+	padding: 2rem;
+	border-radius: 8px;
+}
+
+/* Image caption */
+.image-caption {
+	font-family: var(--font-accent);
+	font-size: 0.75rem;
+	color: var(--color-text-primary);
+	opacity: 0.7;
+	margin-top: 0.5rem;
+}
+
+/* Grid layouts */
+.grid-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 3rem;
+}
+
+.grid-3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+}
+
+@media (max-width: 768px) {
+	.grid-2,
+	.grid-3 {
+		grid-template-columns: 1fr;
+	}
+	
+	.container,
+	.container-wide {
+		padding: 0 1rem;
+	}
+	
+	section {
+		padding: 3rem 0;
+	}
+}
