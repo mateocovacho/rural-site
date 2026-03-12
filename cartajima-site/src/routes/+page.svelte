@@ -420,8 +420,21 @@
 	}
 	
 	@media (max-width: 768px) {
+		.hero {
+			height: auto;
+			min-height: 70vh;
+			padding: 6rem 1rem;
+		}
+		
+		.hero-content {
+			padding: 1.5rem;
+			max-width: 100%;
+			margin: 0 1rem;
+		}
+		
 		.hero h1 {
-			font-size: 1.75rem;
+			font-size: 1.5rem;
+			line-height: 1.3;
 		}
 		
 		.subtitle {
