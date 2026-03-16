@@ -45,7 +45,7 @@ const translations = {
 	en: {
 		nav: {
 			home: 'Home',
-			vision: 'The Vision',
+			vision: 'Project',
 			land: 'The Land',
 			contact: 'Contact'
 		},
@@ -54,7 +54,7 @@ const translations = {
 			subtitle: 'The luxury of the future is space, silence, and connection with nature'
 		},
 		vision: {
-			title: 'The Vision',
+			title: 'Project',
 			concept: '10 casitas scattered across the land',
 			privacy: 'Each guest feels alone with nature',
 			central: 'A central house for gathering',
@@ -88,7 +88,7 @@ const translations = {
 			tagline: 'The license is ready. The vision is clear. The timing is now.'
 		},
 		visionPage: {
-			title: 'The Vision',
+			title: 'Project',
 			layout: 'The Layout',
 			layoutDesc: 'Ten casitas positioned across 78,000 m² to ensure each guest experiences total privacy and immersion in nature. The distances between dwellings create a sense of solitude.',
 			centralTitle: 'The Central House',
@@ -187,8 +187,8 @@ const translations = {
 	es: {
 		nav: {
 			home: 'Inicio',
-			vision: 'La Visión',
-			land: 'La Tierra',
+			vision: 'Proyecto',
+			land: 'Entorno',
 			contact: 'Contacto'
 		},
 		hero: {
@@ -196,7 +196,7 @@ const translations = {
 			subtitle: 'El lujo del futuro es espacio, silencio y conexión con la naturaleza'
 		},
 		vision: {
-			title: 'La Visión',
+			title: 'Proyecto',
 			concept: '10 casitas dispersas por la finca',
 			privacy: 'Cada huésped se siente solo con la naturaleza',
 			central: 'Una casa central para reunirse',
@@ -230,7 +230,7 @@ const translations = {
 			tagline: 'La licencia está lista. La visión es clara. El momento es ahora.'
 		},
 		visionPage: {
-			title: 'La Visión',
+			title: 'Proyecto',
 			layout: 'La Distribución',
 			layoutDesc: 'Diez casitas distribuidas en 78.000 m² para garantizar que cada huésped experimente total privacidad e inmersión en la naturaleza. Las distancias entre viviendas crean una sensación de soledad.',
 			centralTitle: 'La Casa Central',
@@ -262,7 +262,7 @@ const translations = {
 			}
 		},
 		landPage: {
-			title: 'La Tierra',
+			title: 'Entorno',
 			valleTitle: 'Valle del Genal',
 			valleDesc: 'Un valle de belleza singular, protegido por su excepcional paisaje de bosque de castaño. Los dorados colores otoñales de los castaños atraen visitantes de todo el mundo.',
 			cartajimaTitle: 'Cartajima',

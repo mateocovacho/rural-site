@@ -482,3 +482,213 @@
 2026-03-16T10:49:51: Disconnected: 1006 
 2026-03-16T10:49:51: Reconnecting in 3000ms...
 2026-03-16T10:49:54: Connected with Traforo! Tunnel URL: https://cartajima-tunnel.traforo.dev
+2026-03-16T11:37:42: HTTP GET /
+2026-03-16T11:37:42: HTTP GET /images/pozas.jpg
+2026-03-16T11:37:42: HTTP GET /images/bosque.jpeg
+2026-03-16T11:37:42: HTTP GET /images/cartajima.jpg
+2026-03-16T11:37:42: HTTP GET /images/general.jpg
+2026-03-16T11:37:42: HTTP GET /images/casa-central5.jpeg
+2026-03-16T11:37:46: HTTP GET /images/emplazamientos.jpg
+2026-03-16T11:37:46: HTTP GET /images/casa-central6.jpeg
+2026-03-16T11:37:46: HTTP GET /images/finca.jpg
+2026-03-16T11:37:46: HTTP GET /images/simula2.jpeg
+2026-03-16T11:37:46: HTTP GET /images/simulacion-1.jpeg
+2026-03-16T12:07:06: HTTP GET /vision
+2026-03-16T12:07:06: HTTP GET /vision -> streaming response
+2026-03-16T12:07:07: HTTP GET /favicon.svg
+2026-03-16T12:07:29: HTTP GET /vision
+2026-03-16T12:07:31: HTTP GET /vision
+2026-03-16T12:07:32: HTTP GET /vision
+2026-03-16T12:07:34: HTTP GET /vision
+2026-03-16T12:07:35: HTTP GET /images/Captura-de-pantalla-2026-02-24-a-las-18.21.03.png
+2026-03-16T12:07:35: HTTP GET /images/ECOTURISMO2.jpg
+2026-03-16T12:07:35: HTTP GET /images/casa-central7.jpeg
+2026-03-16T12:07:35: HTTP GET /images/ECOTURISMO3.jpg
+2026-03-16T12:07:35: HTTP GET /images/riscos.gif
+2026-03-16T12:07:35: HTTP GET /images/ECOTURISMO1.jpg
+2026-03-16T12:07:35: HTTP GET /images/MirandoAlSur.gif
+2026-03-16T12:07:35: HTTP GET /images/ecoturismo5.jpg
+2026-03-16T12:07:35: HTTP GET /images/poza.JPG
+2026-03-16T12:07:35: HTTP GET /images/bosque2.jpeg
+2026-03-16T12:07:41: HTTP GET /land
+2026-03-16T12:07:41: HTTP GET /land -> streaming response
+2026-03-16T12:07:42: HTTP GET /land
+2026-03-16T12:07:43: HTTP GET /land
+2026-03-16T12:07:47: HTTP GET /land
+2026-03-16T12:07:47: HTTP GET /land -> streaming response
+2026-03-16T12:07:47: HTTP GET /_app/immutable/nodes/1.4Es1xqzW.js
+2026-03-16T12:07:47: HTTP GET /images/bosque2.jpeg
+2026-03-16T12:07:47: HTTP GET /images/ecoturismo5.jpg
+2026-03-16T12:07:47: node:events:497
+2026-03-16T12:07:47:       throw er; // Unhandled 'error' event
+2026-03-16T12:07:47:       ^
+2026-03-16T12:07:47: 
+2026-03-16T12:07:47: Error: ENOENT: no such file or directory, open '/root/demo-sites/web-cartajima/opencode-version/cartajima-site/.svelte-kit/output/client/_app/immutable/nodes/1.4Es1xqzW.js'
+2026-03-16T12:07:47: Emitted 'error' event on ReadStream instance at:
+2026-03-16T12:07:47: [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+2026-03-16T12:07:47: [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+2026-03-16T12:07:47: [90m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m {
+2026-03-16T12:07:47:   errno: [33m-2[39m,
+2026-03-16T12:07:47:   code: [32m'ENOENT'[39m,
+2026-03-16T12:07:47:   syscall: [32m'open'[39m,
+2026-03-16T12:07:47:   path: [32m'/root/demo-sites/web-cartajima/opencode-version/cartajima-site/.svelte-kit/output/client/_app/immutable/nodes/1.4Es1xqzW.js'[39m
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: 
+2026-03-16T12:07:47: Node.js v22.21.0
+2026-03-16T12:07:47: HTTP GET /images/cartajima.jpg
+2026-03-16T12:07:47: HTTP GET /images/casa-central7.jpeg
+2026-03-16T12:07:47: HTTP GET /images/pozas.jpg
+2026-03-16T12:07:47: HTTP GET /images/Captura-de-pantalla-2026-02-24-a-las-18.21.03.png
+2026-03-16T12:07:47: HTTP GET /images/ECOTURISMO1.jpg
+2026-03-16T12:07:47: HTTP GET /images/MirandoAlSur.gif
+2026-03-16T12:07:47: HTTP GET /images/poza.JPG
+2026-03-16T12:07:47: HTTP GET /images/riscos.gif
+2026-03-16T12:07:47: HTTP GET /images/ECOTURISMO3.jpg
+2026-03-16T12:07:47: HTTP GET /images/ECOTURISMO2.jpg
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: SocketError: other side closed
+2026-03-16T12:07:47:       at Socket.<anonymous> (node:internal/deps/undici/undici:6408:28)
+2026-03-16T12:07:47:       at Socket.emit (node:events:531:35)
+2026-03-16T12:07:47:       at endReadableNT (node:internal/streams/readable:1698:12)
+2026-03-16T12:07:47:       at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-03-16T12:07:47:     code: 'UND_ERR_SOCKET',
+2026-03-16T12:07:47:     socket: {
+2026-03-16T12:07:47:       localAddress: '::1',
+2026-03-16T12:07:47:       localPort: 46464,
+2026-03-16T12:07:47:       remoteAddress: '::1',
+2026-03-16T12:07:47:       remotePort: 4173,
+2026-03-16T12:07:47:       remoteFamily: 'IPv6',
+2026-03-16T12:07:47:       timeout: undefined,
+2026-03-16T12:07:47:       bytesWritten: 1590,
+2026-03-16T12:07:47:       bytesRead: 2241
+2026-03-16T12:07:47:     },
+2026-03-16T12:07:47:     [Symbol(undici.error.UND_ERR)]: true,
+2026-03-16T12:07:47:     [Symbol(undici.error.UND_ERR_SOCKET)]: true
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: Error: read ECONNRESET
+2026-03-16T12:07:47:       at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+2026-03-16T12:07:47:     errno: -104,
+2026-03-16T12:07:47:     code: 'ECONNRESET',
+2026-03-16T12:07:47:     syscall: 'read'
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: HTTP request failed: TypeError: fetch failed
+2026-03-16T12:07:47:     at node:internal/deps/undici/undici:14900:13
+2026-03-16T12:07:47:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-03-16T12:07:47:     at async TunnelClient.handleHttpRequest (file:///root/.local/share/pnpm/global/5/.pnpm/traforo@0.0.9/node_modules/traforo/dist/client.js:115:25) {
+2026-03-16T12:07:47:   [cause]: AggregateError [ECONNREFUSED]: 
+2026-03-16T12:07:47:       at internalConnectMultiple (node:net:1134:18)
+2026-03-16T12:07:47:       at afterConnectMultiple (node:net:1715:7) {
+2026-03-16T12:07:47:     code: 'ECONNREFUSED',
+2026-03-16T12:07:47:     [errors]: [ [Error], [Error] ]
+2026-03-16T12:07:47:   }
+2026-03-16T12:07:47: }
+2026-03-16T12:07:47: [41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+2026-03-16T12:07:47: 
+2026-03-16T12:07:47: Command exited with code 1
