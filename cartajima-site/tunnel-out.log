@@ -1,0 +1,484 @@
+2026-03-15T22:26:10: Starting: pnpm dev
+2026-03-15T22:26:10: PORT=5173
+2026-03-15T22:26:10: 
+2026-03-15T22:26:10: Waiting for port 5173...
+2026-03-15T22:26:11: 
+2026-03-15T22:26:11: > cartajima-site@0.0.1 dev /root/demo-sites/web-cartajima/opencode-version/cartajima-site
+2026-03-15T22:26:11: > vite dev
+2026-03-15T22:26:11: 
+2026-03-15T22:26:12: 
+2026-03-15T22:26:12:   [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m1150[22m[2m[0m ms[22m
+2026-03-15T22:26:12: 
+2026-03-15T22:26:12:   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+2026-03-15T22:26:12: [2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+2026-03-15T22:26:12: Port 5173 is ready!
+2026-03-15T22:26:12: 
+2026-03-15T22:26:13: Connected with Traforo! Tunnel URL: https://878b6ffb911e4569-tunnel.traforo.dev
+2026-03-15T22:27:53: HTTP GET /
+2026-03-15T22:27:57: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/entry.js
+2026-03-15T22:27:57: HTTP GET /@fs/root/demo-sites/web-cartajima/opencode-version/cartajima-site/.svelte-kit/generated/client/app.js
+2026-03-15T22:27:57: HTTP GET /.svelte-kit/generated/root.js
+2026-03-15T22:27:57: HTTP GET /.svelte-kit/generated/client/matchers.js
+2026-03-15T22:27:57: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/client.js?v=ef7f252e
+2026-03-15T22:27:57: HTTP GET /.svelte-kit/generated/root.svelte
+2026-03-15T22:27:57: HTTP GET /node_modules/.vite/deps/svelte_legacy.js?v=ef7f252e
+2026-03-15T22:27:57: HTTP GET /node_modules/.vite/deps/chunk-7V5NEN5C.js?v=ef7f252e
+2026-03-15T22:27:57: HTTP GET /node_modules/.vite/deps/chunk-DEX2RCYB.js?v=ef7f252e
+2026-03-15T22:27:57: HTTP GET /node_modules/.vite/deps/chunk-HUIT6TZL.js?v=ef7f252e
+2026-03-15T22:27:57: HTTP GET /node_modules/.vite/deps/chunk-3LUZOQLA.js?v=ef7f252e
+2026-03-15T22:27:57: HTTP GET /node_modules/.vite/deps/chunk-26DKSAKJ.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /@vite/client
+2026-03-15T22:27:58: HTTP GET /node_modules/.vite/deps/svelte_internal_disclose-version.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.vite/deps/svelte_internal_client.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.vite/deps/svelte.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /favicon.svg
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/environment/index.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.vite/deps/esm-env.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /@id/__x00__virtual:__sveltekit/environment
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/vite@7.3.1/node_modules/vite/dist/client/env.mjs
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/exports/internal/index.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/url.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/fetcher.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/session-storage.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/parse.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/utils.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/paths/index.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/constants.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.vite/deps/devalue.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/exports.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/array.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/shared.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/error.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/state.svelte.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.vite/deps/svelte_store.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/pathname.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/utils.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/telemetry/noop.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/exports/internal/remote-functions.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/hash.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/routing.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/paths/client.js?v=ef7f252e
+2026-03-15T22:27:58: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/paths/internal/client.js?v=ef7f252e
+2026-03-15T22:27:58: WS OPEN /?token=DBkAR5PdOb5R (9571b6e5-2eb2-453c-9eae-d85905f82f48) protocols=vite-hmr
+2026-03-15T22:27:58: WS CONNECTED 9571b6e5-2eb2-453c-9eae-d85905f82f48
+2026-03-15T22:27:59: HTTP GET /.svelte-kit/generated/client/nodes/0.js
+2026-03-15T22:27:59: HTTP GET /.svelte-kit/generated/client/nodes/1.js
+2026-03-15T22:27:59: HTTP GET /.svelte-kit/generated/client/nodes/2.js
+2026-03-15T22:27:59: HTTP GET /src/routes/+layout.svelte
+2026-03-15T22:27:59: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte?v=ef7f252e
+2026-03-15T22:27:59: HTTP GET /src/routes/+page.svelte
+2026-03-15T22:27:59: HTTP GET /src/lib/styles/global.css
+2026-03-15T22:27:59: HTTP GET /src/lib/components/PasswordGate.svelte
+2026-03-15T22:27:59: HTTP GET /src/routes/+layout.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:27:59: HTTP GET /src/lib/components/Navigation.svelte
+2026-03-15T22:27:59: HTTP GET /node_modules/.vite/deps/svelte_internal_flags_legacy.js?v=ef7f252e
+2026-03-15T22:27:59: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/state/index.js?v=ef7f252e
+2026-03-15T22:27:59: HTTP GET /src/lib/i18n/translations.ts
+2026-03-15T22:27:59: HTTP GET /src/routes/+page.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:27:59: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/stores.js?v=ef7f252e
+2026-03-15T22:27:59: HTTP GET /src/lib/components/Navigation.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:27:59: HTTP GET /src/lib/components/PasswordGate.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:27:59: HTTP GET /src/lib/stores/auth.ts
+2026-03-15T22:27:59: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/state/client.js?v=ef7f252e
+2026-03-15T22:27:59: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/state/server.js?v=ef7f252e
+2026-03-15T22:28:14: HTTP GET /
+2026-03-15T22:28:14: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/entry.js
+2026-03-15T22:28:14: HTTP GET /@fs/root/demo-sites/web-cartajima/opencode-version/cartajima-site/.svelte-kit/generated/client/app.js
+2026-03-15T22:28:14: HTTP GET /favicon.svg
+2026-03-15T22:28:14: HTTP GET /.svelte-kit/generated/root.js
+2026-03-15T22:28:14: HTTP GET /.svelte-kit/generated/client/matchers.js
+2026-03-15T22:28:14: HTTP GET /@vite/client
+2026-03-15T22:28:14: HTTP GET /@id/__x00__virtual:__sveltekit/environment
+2026-03-15T22:28:14: HTTP GET /.svelte-kit/generated/root.svelte
+2026-03-15T22:28:14: HTTP GET /node_modules/.pnpm/vite@7.3.1/node_modules/vite/dist/client/env.mjs
+2026-03-15T22:28:14: HTTP GET /.svelte-kit/generated/client/nodes/0.js
+2026-03-15T22:28:14: HTTP GET /.svelte-kit/generated/client/nodes/1.js
+2026-03-15T22:28:14: HTTP GET /.svelte-kit/generated/client/nodes/2.js
+2026-03-15T22:28:15: HTTP GET /src/routes/+layout.svelte
+2026-03-15T22:28:15: HTTP GET /src/routes/+page.svelte
+2026-03-15T22:28:15: WS OPEN /?token=DBkAR5PdOb5R (078af9aa-812e-472a-b581-fee5fe1374c6) protocols=vite-hmr
+2026-03-15T22:28:15: WS CONNECTED 078af9aa-812e-472a-b581-fee5fe1374c6
+2026-03-15T22:28:15: HTTP GET /src/lib/styles/global.css
+2026-03-15T22:28:15: HTTP GET /src/lib/components/PasswordGate.svelte
+2026-03-15T22:28:15: HTTP GET /src/lib/components/Navigation.svelte
+2026-03-15T22:28:15: HTTP GET /src/routes/+layout.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:28:15: HTTP GET /src/lib/i18n/translations.ts
+2026-03-15T22:28:15: HTTP GET /src/routes/+page.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:28:15: HTTP GET /src/lib/stores/auth.ts
+2026-03-15T22:28:15: HTTP GET /src/lib/components/PasswordGate.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:28:15: HTTP GET /src/lib/components/Navigation.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:28:24: HTTP GET /images/cartajima.jpg
+2026-03-15T22:28:24: HTTP GET /images/casa-central5.jpeg
+2026-03-15T22:28:24: HTTP GET /images/general.jpg
+2026-03-15T22:28:24: HTTP GET /images/pozas.jpg
+2026-03-15T22:28:24: HTTP GET /images/bosque.jpeg
+2026-03-15T22:28:25: HTTP GET /
+2026-03-15T22:28:26: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/entry.js
+2026-03-15T22:28:26: HTTP GET /@fs/root/demo-sites/web-cartajima/opencode-version/cartajima-site/.svelte-kit/generated/client/app.js
+2026-03-15T22:28:26: HTTP GET /favicon.svg
+2026-03-15T22:28:26: HTTP GET /.svelte-kit/generated/client/matchers.js
+2026-03-15T22:28:26: HTTP GET /.svelte-kit/generated/root.js
+2026-03-15T22:28:26: HTTP GET /@vite/client
+2026-03-15T22:28:26: HTTP GET /@id/__x00__virtual:__sveltekit/environment
+2026-03-15T22:28:26: HTTP GET /.svelte-kit/generated/root.svelte
+2026-03-15T22:28:26: HTTP GET /node_modules/.pnpm/vite@7.3.1/node_modules/vite/dist/client/env.mjs
+2026-03-15T22:28:26: HTTP GET /.svelte-kit/generated/client/nodes/1.js
+2026-03-15T22:28:26: HTTP GET /.svelte-kit/generated/client/nodes/0.js
+2026-03-15T22:28:26: HTTP GET /.svelte-kit/generated/client/nodes/2.js
+2026-03-15T22:28:27: WS OPEN /?token=DBkAR5PdOb5R (479c3f36-7f5f-40e1-9bd6-5cfa34955da7) protocols=vite-hmr
+2026-03-15T22:28:27: WS CONNECTED 479c3f36-7f5f-40e1-9bd6-5cfa34955da7
+2026-03-15T22:28:27: HTTP GET /src/routes/+page.svelte
+2026-03-15T22:28:27: HTTP GET /src/routes/+layout.svelte
+2026-03-15T22:28:27: HTTP GET /src/lib/i18n/translations.ts
+2026-03-15T22:28:27: HTTP GET /src/routes/+page.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:28:27: HTTP GET /src/lib/styles/global.css
+2026-03-15T22:28:27: HTTP GET /src/lib/components/PasswordGate.svelte
+2026-03-15T22:28:27: HTTP GET /src/lib/components/Navigation.svelte
+2026-03-15T22:28:27: HTTP GET /src/routes/+layout.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:28:27: HTTP GET /src/lib/components/PasswordGate.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:28:27: HTTP GET /src/lib/stores/auth.ts
+2026-03-15T22:28:27: HTTP GET /src/lib/components/Navigation.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:28:27: HTTP GET /images/cartajima.jpg
+2026-03-15T22:28:27: HTTP GET /images/casa-central5.jpeg
+2026-03-15T22:28:27: HTTP GET /images/general.jpg
+2026-03-15T22:28:27: HTTP GET /images/pozas.jpg
+2026-03-15T22:28:28: HTTP GET /images/bosque.jpeg
+2026-03-15T22:29:15: 
+2026-03-15T22:29:15: Shutting down...
+2026-03-15T22:29:46: Starting: pnpm dev -- --host
+2026-03-15T22:29:46: PORT=5173
+2026-03-15T22:29:46: 
+2026-03-15T22:29:46: Waiting for port 5173...
+2026-03-15T22:29:46: 
+2026-03-15T22:29:46: > cartajima-site@0.0.1 dev /root/demo-sites/web-cartajima/opencode-version/cartajima-site
+2026-03-15T22:29:46: > vite dev -- --host
+2026-03-15T22:29:46: 
+2026-03-15T22:29:48: 
+2026-03-15T22:29:48:   [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m1304[22m[2m[0m ms[22m
+2026-03-15T22:29:48: 
+2026-03-15T22:29:48:   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+2026-03-15T22:29:48: [2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+2026-03-15T22:29:48: Port 5173 is ready!
+2026-03-15T22:29:48: 
+2026-03-15T22:29:48: Connected with Traforo! Tunnel URL: https://9d225a19ca0c4191-tunnel.traforo.dev
+2026-03-15T22:37:17: HTTP GET /
+2026-03-15T22:37:20: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/entry.js
+2026-03-15T22:37:20: HTTP GET /@fs/root/demo-sites/web-cartajima/opencode-version/cartajima-site/.svelte-kit/generated/client/app.js
+2026-03-15T22:37:20: HTTP GET /favicon.svg
+2026-03-15T22:37:20: HTTP GET /.svelte-kit/generated/root.js
+2026-03-15T22:37:20: HTTP GET /.svelte-kit/generated/client/matchers.js
+2026-03-15T22:37:20: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/client.js?v=ef7f252e
+2026-03-15T22:37:20: HTTP GET /node_modules/.vite/deps/svelte_legacy.js?v=ef7f252e
+2026-03-15T22:37:20: HTTP GET /.svelte-kit/generated/root.svelte
+2026-03-15T22:37:20: HTTP GET /node_modules/.vite/deps/chunk-7V5NEN5C.js?v=ef7f252e
+2026-03-15T22:37:20: HTTP GET /node_modules/.vite/deps/chunk-DEX2RCYB.js?v=ef7f252e
+2026-03-15T22:37:20: HTTP GET /node_modules/.vite/deps/chunk-HUIT6TZL.js?v=ef7f252e
+2026-03-15T22:37:20: HTTP GET /node_modules/.vite/deps/chunk-3LUZOQLA.js?v=ef7f252e
+2026-03-15T22:37:20: HTTP GET /node_modules/.vite/deps/chunk-26DKSAKJ.js?v=ef7f252e
+2026-03-15T22:37:20: HTTP GET /@vite/client
+2026-03-15T22:37:20: HTTP GET /node_modules/.vite/deps/svelte_internal_disclose-version.js?v=ef7f252e
+2026-03-15T22:37:20: HTTP GET /node_modules/.vite/deps/svelte_internal_client.js?v=ef7f252e
+2026-03-15T22:37:20: HTTP GET /node_modules/.vite/deps/svelte.js?v=ef7f252e
+2026-03-15T22:37:20: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/environment/index.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/fetcher.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/parse.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.vite/deps/esm-env.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/url.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/exports/internal/index.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/session-storage.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/pathname.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.vite/deps/devalue.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/utils.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/constants.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/utils.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/telemetry/noop.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/paths/index.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/array.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/exports.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/error.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/shared.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.vite/deps/svelte_store.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/state.svelte.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /@id/__x00__virtual:__sveltekit/environment
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/hash.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/utils/routing.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/paths/client.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/exports/internal/remote-functions.js?v=ef7f252e
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/vite@7.3.1/node_modules/vite/dist/client/env.mjs
+2026-03-15T22:37:21: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/paths/internal/client.js?v=ef7f252e
+2026-03-15T22:37:22: WS OPEN /?token=ZGHqvYb3vVm8 (f1e6accc-7314-4a87-958e-b236d46dec52) protocols=vite-hmr
+2026-03-15T22:37:22: WS CONNECTED f1e6accc-7314-4a87-958e-b236d46dec52
+2026-03-15T22:37:22: HTTP GET /.svelte-kit/generated/client/nodes/0.js
+2026-03-15T22:37:22: HTTP GET /.svelte-kit/generated/client/nodes/1.js
+2026-03-15T22:37:22: HTTP GET /.svelte-kit/generated/client/nodes/2.js
+2026-03-15T22:37:22: HTTP GET /src/routes/+layout.svelte
+2026-03-15T22:37:22: HTTP GET /src/routes/+page.svelte
+2026-03-15T22:37:22: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte?v=ef7f252e
+2026-03-15T22:37:22: HTTP GET /src/lib/styles/global.css
+2026-03-15T22:37:22: HTTP GET /src/routes/+layout.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:37:22: HTTP GET /node_modules/.vite/deps/svelte_internal_flags_legacy.js?v=ef7f252e
+2026-03-15T22:37:22: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/state/index.js?v=ef7f252e
+2026-03-15T22:37:22: HTTP GET /src/lib/components/PasswordGate.svelte
+2026-03-15T22:37:22: HTTP GET /src/lib/components/Navigation.svelte
+2026-03-15T22:37:22: HTTP GET /src/lib/i18n/translations.ts
+2026-03-15T22:37:22: HTTP GET /src/routes/+page.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:37:22: HTTP GET /src/lib/stores/auth.ts
+2026-03-15T22:37:22: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/state/client.js?v=ef7f252e
+2026-03-15T22:37:22: HTTP GET /src/lib/components/Navigation.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:37:22: HTTP GET /src/lib/components/PasswordGate.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:37:22: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/stores.js?v=ef7f252e
+2026-03-15T22:37:22: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/app/state/server.js?v=ef7f252e
+2026-03-15T22:37:37: HTTP GET /
+2026-03-15T22:37:38: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/entry.js
+2026-03-15T22:37:38: HTTP GET /@fs/root/demo-sites/web-cartajima/opencode-version/cartajima-site/.svelte-kit/generated/client/app.js
+2026-03-15T22:37:38: HTTP GET /favicon.svg
+2026-03-15T22:37:38: HTTP GET /.svelte-kit/generated/client/matchers.js
+2026-03-15T22:37:38: HTTP GET /.svelte-kit/generated/root.js
+2026-03-15T22:37:39: HTTP GET /.svelte-kit/generated/root.svelte
+2026-03-15T22:37:39: HTTP GET /@vite/client
+2026-03-15T22:37:39: HTTP GET /@id/__x00__virtual:__sveltekit/environment
+2026-03-15T22:37:39: HTTP GET /node_modules/.pnpm/vite@7.3.1/node_modules/vite/dist/client/env.mjs
+2026-03-15T22:37:39: HTTP GET /.svelte-kit/generated/client/nodes/0.js
+2026-03-15T22:37:39: HTTP GET /.svelte-kit/generated/client/nodes/2.js
+2026-03-15T22:37:39: HTTP GET /.svelte-kit/generated/client/nodes/1.js
+2026-03-15T22:37:39: HTTP GET /src/routes/+layout.svelte
+2026-03-15T22:37:39: HTTP GET /src/routes/+page.svelte
+2026-03-15T22:37:40: WS OPEN /?token=ZGHqvYb3vVm8 (2299b806-f409-435f-a790-3dfab6e68c0d) protocols=vite-hmr
+2026-03-15T22:37:40: WS CONNECTED 2299b806-f409-435f-a790-3dfab6e68c0d
+2026-03-15T22:37:40: HTTP GET /src/lib/components/PasswordGate.svelte
+2026-03-15T22:37:40: HTTP GET /src/lib/styles/global.css
+2026-03-15T22:37:40: HTTP GET /src/lib/components/Navigation.svelte
+2026-03-15T22:37:40: HTTP GET /src/routes/+layout.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:37:40: HTTP GET /src/lib/i18n/translations.ts
+2026-03-15T22:37:40: HTTP GET /src/routes/+page.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:37:40: HTTP GET /src/lib/stores/auth.ts
+2026-03-15T22:37:40: HTTP GET /src/lib/components/PasswordGate.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:37:40: HTTP GET /src/lib/components/Navigation.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:38:22: [2m10:38:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.svelte-kit/generated/client/nodes/0.js[22m
+2026-03-15T22:38:22: [2m10:38:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.svelte-kit/generated/client/nodes/1.js[22m
+2026-03-15T22:38:22: [2m10:38:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.svelte-kit/generated/client/nodes/2.js[22m
+2026-03-15T22:38:22: [2m10:38:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.svelte-kit/generated/client/app.js[22m
+2026-03-15T22:38:22: [2m10:38:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.svelte-kit/generated/client/matchers.js[22m
+2026-03-15T22:38:22: [2m10:38:22 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2m.svelte-kit/generated/server/internal.js[22m
+2026-03-15T22:38:22: [2m10:38:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.svelte-kit/generated/root.js[22m
+2026-03-15T22:38:22: [2m10:38:22 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2m.svelte-kit/generated/root.js[22m
+2026-03-15T22:38:22: [2m10:38:22 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2m.svelte-kit/generated/root.svelte[22m
+2026-03-15T22:38:23: HTTP GET /
+2026-03-15T22:38:24: HTTP GET /@fs/root/demo-sites/web-cartajima/opencode-version/cartajima-site/.svelte-kit/generated/client/app.js
+2026-03-15T22:38:24: HTTP GET /node_modules/.pnpm/@sveltejs+kit@2.54.0_@sveltejs+vite-plugin-svelte@6.2.4_svelte@5.53.10_vite@7.3.1__svel_eb6155ad544d274750028034f803867f/node_modules/@sveltejs/kit/src/runtime/client/entry.js
+2026-03-15T22:38:24: HTTP GET /.svelte-kit/generated/client/matchers.js?t=1773614302742
+2026-03-15T22:38:24: HTTP GET /.svelte-kit/generated/root.js?t=1773614302751
+2026-03-15T22:38:25: HTTP GET /favicon.svg
+2026-03-15T22:38:25: HTTP GET /.svelte-kit/generated/root.svelte
+2026-03-15T22:38:25: HTTP GET /@vite/client
+2026-03-15T22:38:26: HTTP GET /node_modules/.pnpm/vite@7.3.1/node_modules/vite/dist/client/env.mjs
+2026-03-15T22:38:26: HTTP GET /@id/__x00__virtual:__sveltekit/environment
+2026-03-15T22:38:26: HTTP GET /.svelte-kit/generated/client/nodes/1.js?t=1773614302728
+2026-03-15T22:38:26: HTTP GET /.svelte-kit/generated/client/nodes/0.js?t=1773614302647
+2026-03-15T22:38:26: HTTP GET /.svelte-kit/generated/client/nodes/2.js?t=1773614302730
+2026-03-15T22:38:26: WS OPEN /?token=ZGHqvYb3vVm8 (666e1110-a019-4058-8302-fc0feb265ac4) protocols=vite-hmr
+2026-03-15T22:38:26: WS CONNECTED 666e1110-a019-4058-8302-fc0feb265ac4
+2026-03-15T22:38:26: HTTP GET /src/routes/+layout.svelte
+2026-03-15T22:38:26: HTTP GET /src/routes/+page.svelte
+2026-03-15T22:38:27: HTTP GET /src/lib/styles/global.css
+2026-03-15T22:38:27: HTTP GET /src/lib/components/PasswordGate.svelte
+2026-03-15T22:38:27: HTTP GET /src/lib/components/Navigation.svelte
+2026-03-15T22:38:27: HTTP GET /src/routes/+layout.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:38:27: HTTP GET /src/lib/i18n/translations.ts
+2026-03-15T22:38:27: HTTP GET /src/routes/+page.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:38:27: [2m10:38:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mbuild/index.html[22m
+2026-03-15T22:38:27: HTTP GET /src/lib/stores/auth.ts
+2026-03-15T22:38:27: HTTP GET /src/lib/components/PasswordGate.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:38:27: HTTP GET /src/lib/components/Navigation.svelte?svelte=&type=style&lang.css=
+2026-03-15T22:38:38: 
+2026-03-15T22:38:38: Shutting down...
+2026-03-15T22:38:41: Starting: pnpm preview -- --host --port 4173
+2026-03-15T22:38:41: PORT=4173
+2026-03-15T22:38:41: 
+2026-03-15T22:38:41: Waiting for port 4173...
+2026-03-15T22:38:42: 
+2026-03-15T22:38:42: > cartajima-site@0.0.1 preview /root/demo-sites/web-cartajima/opencode-version/cartajima-site
+2026-03-15T22:38:42: > vite preview -- --host --port 4173
+2026-03-15T22:38:42: 
+2026-03-15T22:38:43:   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4173[22m/[39m
+2026-03-15T22:38:43: [2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+2026-03-15T22:38:43: Port 4173 is ready!
+2026-03-15T22:38:43: 
+2026-03-15T22:38:44: Connected with Traforo! Tunnel URL: https://dffcf8f7b6564b82-tunnel.traforo.dev
+2026-03-15T22:39:29: HTTP GET /
+2026-03-15T22:39:29: HTTP GET / -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/assets/0.BH6edQpe.css
+2026-03-15T22:39:29: HTTP GET /_app/immutable/assets/2.DmcHvFLj.css
+2026-03-15T22:39:29: HTTP GET /_app/immutable/entry/start.8Oosemzk.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/assets/0.BH6edQpe.css -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/DfHJKWHD.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/assets/2.DmcHvFLj.css -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/CDkNrUnj.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/CBhIuP8y.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/DfHJKWHD.js -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/entry/app.Y0UQzVxW.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/CBhIuP8y.js -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/CNOIj26z.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/entry/app.Y0UQzVxW.js -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/CuDuHMt7.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/CNOIj26z.js -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/CuDuHMt7.js -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/mruTX65b.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/Cp6-ckMw.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/Dy3sqGDp.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/Cp6-ckMw.js -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/nodes/0.CLJeFglB.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/nodes/2.SkT2WkGB.js
+2026-03-15T22:39:29: HTTP GET /_app/immutable/chunks/Dy3sqGDp.js -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/nodes/0.CLJeFglB.js -> streaming response
+2026-03-15T22:39:29: HTTP GET /_app/immutable/nodes/2.SkT2WkGB.js -> streaming response
+2026-03-15T22:39:30: HTTP GET /_app/immutable/nodes/1.DdyuWDIU.js
+2026-03-15T22:39:30: HTTP GET /_app/immutable/nodes/1.DdyuWDIU.js -> streaming response
+2026-03-15T22:39:31: HTTP GET /favicon.svg
+2026-03-15T22:39:38: HTTP GET /images/cartajima.jpg
+2026-03-15T22:39:38: HTTP GET /images/casa-central5.jpeg
+2026-03-15T22:39:38: HTTP GET /images/general.jpg
+2026-03-15T22:39:38: HTTP GET /images/pozas.jpg
+2026-03-15T22:39:38: HTTP GET /images/bosque.jpeg
+2026-03-15T22:40:10: HTTP GET /
+2026-03-15T22:40:10: HTTP GET / -> streaming response
+2026-03-15T22:40:12: HTTP GET /images/cartajima.jpg
+2026-03-15T22:40:12: HTTP GET /_app/immutable/nodes/1.DdyuWDIU.js
+2026-03-15T22:40:12: HTTP GET /images/casa-central5.jpeg
+2026-03-15T22:40:12: HTTP GET /images/pozas.jpg
+2026-03-15T22:40:12: HTTP GET /images/general.jpg
+2026-03-15T22:40:12: HTTP GET /_app/immutable/nodes/1.DdyuWDIU.js -> streaming response
+2026-03-15T22:40:12: HTTP GET /images/bosque.jpeg
+2026-03-15T22:40:13: HTTP GET /favicon.svg
+2026-03-15T22:46:40: 
+2026-03-15T22:46:40: Shutting down...
+2026-03-15T22:46:41: Starting: pnpm preview -- --host --port 4173
+2026-03-15T22:46:41: PORT=4173
+2026-03-15T22:46:41: 
+2026-03-15T22:46:41: Waiting for port 4173...
+2026-03-15T22:46:41: 
+2026-03-15T22:46:41: > cartajima-site@0.0.1 preview /root/demo-sites/web-cartajima/opencode-version/cartajima-site
+2026-03-15T22:46:41: > vite preview -- --host --port 4173
+2026-03-15T22:46:41: 
+2026-03-15T22:46:43:   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4173[22m/[39m
+2026-03-15T22:46:43: [2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+2026-03-15T22:46:43: Port 4173 is ready!
+2026-03-15T22:46:43: 
+2026-03-15T22:46:43: Connected with Traforo! Tunnel URL: https://91f97463a0f44c69-tunnel.traforo.dev
+2026-03-15T22:47:50: 
+2026-03-15T22:47:50: Shutting down...
+2026-03-15T22:47:51: Starting: pnpm preview -- --host --port 4173
+2026-03-15T22:47:51: PORT=4173
+2026-03-15T22:47:51: 
+2026-03-15T22:47:51: Waiting for port 4173...
+2026-03-15T22:47:52: 
+2026-03-15T22:47:52: > cartajima-site@0.0.1 preview /root/demo-sites/web-cartajima/opencode-version/cartajima-site
+2026-03-15T22:47:52: > vite preview -- --host --port 4173
+2026-03-15T22:47:52: 
+2026-03-15T22:47:53:   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4173[22m/[39m
+2026-03-15T22:47:53: [2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+2026-03-15T22:47:53: Port 4173 is ready!
+2026-03-15T22:47:53: 
+2026-03-15T22:47:54: Connected with Traforo! Tunnel URL: https://66c8cee26ba04fb8-tunnel.traforo.dev
+2026-03-15T22:48:05: 
+2026-03-15T22:48:05: Shutting down...
+2026-03-15T22:48:07: Starting: pnpm preview -- --host --port 4173
+2026-03-15T22:48:07: PORT=4173
+2026-03-15T22:48:07: 
+2026-03-15T22:48:07: Waiting for port 4173...
+2026-03-15T22:48:07: 
+2026-03-15T22:48:07: > cartajima-site@0.0.1 preview /root/demo-sites/web-cartajima/opencode-version/cartajima-site
+2026-03-15T22:48:07: > vite preview -- --host --port 4173
+2026-03-15T22:48:07: 
+2026-03-15T22:48:08:   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4173[22m/[39m
+2026-03-15T22:48:08: [2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+2026-03-15T22:48:09: Port 4173 is ready!
+2026-03-15T22:48:09: 
+2026-03-15T22:48:09: Connected with Traforo! Tunnel URL: https://cartajima-tunnel.traforo.dev
+2026-03-15T22:48:28: HTTP GET /
+2026-03-15T22:48:28: HTTP GET / -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/CBhIuP8y.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/assets/0.BH6edQpe.css
+2026-03-15T22:48:29: HTTP GET /_app/immutable/assets/2.DmcHvFLj.css
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/CBhIuP8y.js -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/CDkNrUnj.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/entry/start.DtzX_kaL.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/assets/0.BH6edQpe.css -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/assets/2.DmcHvFLj.css -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/entry/app.CdHjuvre.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/BmMWTN1l.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/entry/app.CdHjuvre.js -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/CuDuHMt7.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/BmMWTN1l.js -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/CuDuHMt7.js -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/CNOIj26z.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/mruTX65b.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/CNOIj26z.js -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/nodes/0.BVKNknHN.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/nodes/2.SkT2WkGB.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/Cp6-ckMw.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/Dy3sqGDp.js
+2026-03-15T22:48:29: HTTP GET /_app/immutable/nodes/0.BVKNknHN.js -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/nodes/2.SkT2WkGB.js -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/Cp6-ckMw.js -> streaming response
+2026-03-15T22:48:29: HTTP GET /_app/immutable/chunks/Dy3sqGDp.js -> streaming response
+2026-03-15T22:48:30: HTTP GET /favicon.svg
+2026-03-15T22:48:30: HTTP GET /_app/immutable/nodes/1.4Es1xqzW.js
+2026-03-15T22:48:30: HTTP GET /_app/immutable/nodes/1.4Es1xqzW.js -> streaming response
+2026-03-15T22:48:34: HTTP GET /images/pozas.jpg
+2026-03-15T22:48:34: HTTP GET /images/cartajima.jpg
+2026-03-15T22:48:34: HTTP GET /images/general.jpg
+2026-03-15T22:48:34: HTTP GET /images/casa-central5.jpeg
+2026-03-15T22:48:34: HTTP GET /images/bosque.jpeg
+2026-03-15T23:03:13: HTTP GET /_app/immutable/nodes/4.D9wA7D_T.js
+2026-03-15T23:03:13: HTTP GET /_app/immutable/assets/4.CurYEjHH.css
+2026-03-15T23:03:13: HTTP GET /_app/immutable/nodes/4.D9wA7D_T.js -> streaming response
+2026-03-15T23:03:13: HTTP GET /_app/immutable/assets/4.CurYEjHH.css -> streaming response
+2026-03-15T23:03:14: HTTP GET /images/poza.JPG
+2026-03-15T23:03:14: HTTP GET /images/ecoturismo5.jpg
+2026-03-15T23:03:14: HTTP GET /images/casa-central7.jpeg
+2026-03-15T23:03:14: HTTP GET /images/Captura-de-pantalla-2026-02-24-a-las-18.21.03.png
+2026-03-15T23:03:14: HTTP GET /images/ECOTURISMO1.jpg
+2026-03-15T23:03:14: HTTP GET /images/ECOTURISMO2.jpg
+2026-03-15T23:03:14: HTTP GET /images/bosque2.jpeg
+2026-03-15T23:03:14: HTTP GET /images/riscos.gif
+2026-03-15T23:03:14: HTTP GET /images/ECOTURISMO3.jpg
+2026-03-15T23:03:14: HTTP GET /images/MirandoAlSur.gif
+2026-03-15T23:03:36: HTTP GET /_app/immutable/assets/3.DyQx2hvt.css
+2026-03-15T23:03:36: HTTP GET /_app/immutable/nodes/3.C6hA56Ty.js
+2026-03-15T23:03:36: HTTP GET /_app/immutable/assets/3.DyQx2hvt.css -> streaming response
+2026-03-15T23:03:36: HTTP GET /_app/immutable/nodes/3.C6hA56Ty.js -> streaming response
+2026-03-15T23:03:36: HTTP GET /_app/immutable/nodes/5.Bw_VvTPB.js
+2026-03-15T23:03:36: HTTP GET /_app/immutable/assets/5.petqK5f6.css
+2026-03-15T23:03:36: HTTP GET /_app/immutable/nodes/5.Bw_VvTPB.js -> streaming response
+2026-03-15T23:03:36: HTTP GET /_app/immutable/assets/5.petqK5f6.css -> streaming response
+2026-03-15T23:03:37: HTTP GET /images/emplazamientos.jpg
+2026-03-15T23:03:37: HTTP GET /images/casa-central6.jpeg
+2026-03-15T23:03:37: HTTP GET /images/finca.jpg
+2026-03-15T23:03:37: HTTP GET /images/simulacion-1.jpeg
+2026-03-15T23:03:37: HTTP GET /images/casa-central5.jpeg
+2026-03-15T23:03:37: HTTP GET /images/simula2.jpeg
+2026-03-16T00:43:47: Disconnected: 1006 
+2026-03-16T00:43:47: Reconnecting in 3000ms...
+2026-03-16T00:43:50: Connected with Traforo! Tunnel URL: https://cartajima-tunnel.traforo.dev
+2026-03-16T02:24:00: Disconnected: 1006 
+2026-03-16T02:24:00: Reconnecting in 3000ms...
+2026-03-16T02:24:03: Connected with Traforo! Tunnel URL: https://cartajima-tunnel.traforo.dev
+2026-03-16T04:04:13: Disconnected: 1006 
+2026-03-16T04:04:13: Reconnecting in 3000ms...
+2026-03-16T04:04:17: Connected with Traforo! Tunnel URL: https://cartajima-tunnel.traforo.dev
+2026-03-16T05:44:27: Disconnected: 1006 
+2026-03-16T05:44:27: Reconnecting in 3000ms...
+2026-03-16T05:44:30: Connected with Traforo! Tunnel URL: https://cartajima-tunnel.traforo.dev
+2026-03-16T07:24:40: Disconnected: 1006 
+2026-03-16T07:24:40: Reconnecting in 3000ms...
+2026-03-16T07:24:43: Connected with Traforo! Tunnel URL: https://cartajima-tunnel.traforo.dev
+2026-03-16T09:04:53: Disconnected: 1006 
+2026-03-16T09:04:53: Reconnecting in 3000ms...
+2026-03-16T09:04:56: Connected with Traforo! Tunnel URL: https://cartajima-tunnel.traforo.dev
+2026-03-16T09:09:38: Disconnected: 1006 
+2026-03-16T09:09:38: Reconnecting in 3000ms...
+2026-03-16T09:09:41: Connected with Traforo! Tunnel URL: https://cartajima-tunnel.traforo.dev
+2026-03-16T10:49:51: Disconnected: 1006 
+2026-03-16T10:49:51: Reconnecting in 3000ms...
+2026-03-16T10:49:54: Connected with Traforo! Tunnel URL: https://cartajima-tunnel.traforo.dev

@@ -14,7 +14,7 @@
 		<p class="subtitle">{$t('hero.subtitle')}</p>
 	</div>
 	<div class="hero-image">
-		<img src="/images/cartajima.webp" alt="Valle del Genal landscape" />
+		<img src="/images/cartajima.jpg" alt="Valle del Genal landscape" />
 	</div>
 </section>
 

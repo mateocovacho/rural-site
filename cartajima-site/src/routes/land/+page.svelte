@@ -48,7 +48,7 @@
 	<div class="container">
 		<div class="cartajima-grid">
 			<div class="cartajima-images">
-				<img src="/images/cartajima.webp" alt="Cartajima village" />
+				<img src="/images/cartajima.jpg" alt="Cartajima village" />
 				<img src="/images/ecoturismo5.jpg" alt="White village in valley" />
 			</div>
 			<div class="cartajima-content">
