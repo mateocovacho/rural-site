@@ -1,13 +1,13 @@
-# Anotaciones para cambios en "Visión del Proyecto"
+# Anotaciones para cambios en "Proyecto"
 
-## vision1.png vs vision1mod1.png
+## proyecto1.png vs proyecto1mod1.png
 **Cambios necesarios:**
-1. **Título**: Cambiar de "La Visión" a "La Visión **PROYECTO**" (PROYECTO debe ir en rojo o destacado)
+1. **Título**: Cambiar de "La Visión" a "La Visión **PROYECTO**" 
 2. **Texto descripción**: Eliminar las frases tachadas en rojo del texto sobre privacidad e inmersión
 3. **Estadísticas**: Añadir "y almacén" en rojo bajo la estadística "10 casitas + casa principal" 
    - El texto completo debería quedar: "10 casitas + casa principal y almacén"
 
-## vision2.png vs vision2mod4.png
+## proyecto2.png vs proyecto2mod4.png
 **Cambios necesarios:**
 1. **Lista de características de La Casa Central**:
    - Añadir nuevo punto: "Recepción, central de servicios." (en rojo en la imagen)
@@ -17,7 +17,7 @@
    - Cursos y talleres  
    - Recepción, central de servicios. (NUEVO)
 
-## vision3.png vs vision3mod3.png
+## proyecto3.png vs proyecto3mod3.png
 **Cambios necesarios:**
 1. **Sección Infraestructura - Tarjeta de Agua**:
    - Cambiar el texto "Suministro del pueblo + manantial" 
@@ -25,7 +25,7 @@
    - Texto corregido: "Suministro del pueblo"
    - O según el contexto, probablemente quieren eliminar la referencia al manantial de esa tarjeta específica
 
-## vision4.png vs vision4mod2.png
+## proyecto4.png vs proyecto4mod2.png
 **Cambios necesarios:**
 1. **Nueva sección**: Añadir sección "División de la Finca" con:
    - Título: "División de la Finca"
@@ -35,7 +35,7 @@
      - Caja amarilla/dorada: "PARCELA PARA OTROS USOS 38.000M2"
    - Mapa satelital a la derecha mostrando las parcelas coloreadas
 
-## vision5mod5.png
+## proyecto5mod5.png
 **Cambios necesarios:**
 1. **Nueva sección**: Añadir sección "Renderizados Conceptuales" con:
    - Título: "Renderizados Conceptuales"
@@ -46,6 +46,6 @@
 ---
 
 **Notas de navegación:**
-- vision1 → vision4 (según anotación en imagen)
-- vision4 → vision3 (según anotación en imagen)
-- vision3 → vision2 (según anotación en imagen)
+- proyecto1 → proyecto4 (según anotación en imagen)
+- proyecto4 → proyecto3 (según anotación en imagen)
+- proyecto3 → proyecto2 (según anotación en imagen)
