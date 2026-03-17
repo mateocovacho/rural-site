@@ -1,6 +1,6 @@
 # Anotaciones para cambios en "Entorno"
 
-## latierra1.png vs latierra1mod2.png
+## entorno1.png vs entorno1mod2.png
 **Cambios necesarios:**
 1. **Número de sección**: Añadir "2" en la esquina superior izquierda
 2. **Imagen**: La foto actual está pixelada - necesita ser reemplazada por una versión de mayor calidad
@@ -9,7 +9,7 @@
    - "Special protection status" (con icono de monumento)
    - "Golden autumn colors" (con hojas)
 
-## latierra2.png vs latierra2mod3.png
+## entorno2.png vs entorno2mod3.png
 **Cambios necesarios:**
 1. **Número de sección**: Añadir "3" en la esquina superior izquierda
 2. **Sección completa**: Esta es una sección "Cartajima" con:
@@ -20,7 +20,7 @@
      - "40 min to Marbella"
      - "15 min to Ronda"
 
-## latierra3.png vs latierra3mod5.png
+## entorno3.png vs entorno3mod5.png
 **Cambios necesarios:**
 1. **Número de sección**: Añadir "5" en la esquina superior izquierda
 2. **Título**: Cambiar a "Presencia del Agua" (texto negro grande) y mantener "Características del Agua" como subtítulo
@@ -30,7 +30,7 @@
    - Añadir caption a imagen superior derecha: "Cascadas del Arrollo Blanco en la propia finca"
    - Reemplazar imagen inferior derecha: "poner foto de agua en el genal" (pedir foto del agua en el río Genal)
 
-## latierra4.png vs latierra4mod1.png
+## entorno4.png vs entorno4mod1.png
 **Cambios necesarios:**
 1. **Número de sección**: Añadir "1" en la esquina superior izquierda
 2. **Título**: Cambiar a "Sierra de Ronda" (en negro/grueso)
@@ -42,7 +42,7 @@
    - Pueblo blanco (vista aérea)
    - Pueblo bajo roca (Setenil de las Bodegas)
 
-## latierra5.png vs latierra5mod6.png
+## entorno5.png vs entorno5mod6.png
 **Cambios necesarios:**
 1. **Número de sección**: Añadir "6" en la esquina superior izquierda
 2. **Nueva sección**: "Ecoturismo en Valle del Genal"
@@ -53,7 +53,7 @@
      - **Ciclismo de Montaña**: "Rutas otoñales a través de paisajes coloridos" (imagen: ciclistas)
      - **Paseos a Caballo**: "Cruzando ríos y explorando el valle" (imagen: gente a caballo en río)
 
-## latierra6.png vs latierra6mod4.png
+## entorno6.png vs entorno6mod4.png
 **Cambios necesarios:**
 1. **Número de sección**: Añadir "4" en la esquina superior izquierda
 2. **Título**: Cambiar a "Las Vistas desde la finca" (con "desde la finca" en negrita/negrita mayor)
@@ -66,9 +66,9 @@
 
 **Notas de navegación/orden sugerido:**
 Según los números en las imágenes:
-1. latierra4 (Sierra de Ronda)
-2. latierra1 (Valle del Genal)
-3. latierra2 (Cartajima)
-4. latierra6 (Las Vistas desde la finca)
-5. latierra3 (Presencia del Agua)
-6. latierra5 (Ecoturismo)
+1. entorno4 (Sierra de Ronda)
+2. entorno1 (Valle del Genal)
+3. entorno2 (Cartajima)
+4. entorno6 (Las Vistas desde la finca)
+5. entorno3 (Presencia del Agua)
+6. entorno5 (Ecoturismo)
