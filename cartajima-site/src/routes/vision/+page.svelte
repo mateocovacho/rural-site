@@ -43,32 +43,27 @@
 	</div>
 </section>
 
-<!-- Central House Section -->
-<section class="central-section">
+<!-- Land Division Section -->
+<section class="land-section">
 	<div class="container">
-		<div class="central-grid">
-			<div class="central-images">
-				<img src="/images/casa-central5.jpeg" alt="Central house interior" />
-				<img src="/images/casa-central6.jpeg" alt="Yoga studio space" />
-			</div>
-			<div class="central-content">
-				<h2>{$t('visionPage.centralTitle')}</h2>
-				<p class="lead">{$t('visionPage.centralDesc')}</p>
+		<div class="land-grid">
+			<div class="land-content">
+				<h2>{$t('visionPage.landTitle')}</h2>
+				<p class="lead">{$t('visionPage.landDesc')}</p>
 				
-			<div class="central-features">
-				<div class="feature">
-					<span class="feature-icon">◈</span>
-					<p>{$t('visionPage.centralFeatures.events')}</p>
-				</div>
-				<div class="feature">
-					<span class="feature-icon">◎</span>
-					<p>{$t('visionPage.centralFeatures.courses')}</p>
-				</div>
-				<div class="feature">
-					<span class="feature-icon">◇</span>
-					<p>{$t('visionPage.centralFeatures.kitchen')}</p>
+				<div class="land-diagram">
+					<div class="parcel project">
+						<span class="parcel-label">Project</span>
+						<span class="parcel-count">2 parcels</span>
+					</div>
+					<div class="parcel available">
+						<span class="parcel-label">Available</span>
+						<span class="parcel-count">2 parcels</span>
+					</div>
 				</div>
 			</div>
+			<div class="land-image">
+				<img src="/images/finca.jpg" alt="Property boundaries" />
 			</div>
 		</div>
 	</div>
@@ -100,27 +95,32 @@
 	</div>
 </section>
 
-<!-- Land Division Section -->
-<section class="land-section">
+<!-- Central House Section -->
+<section class="central-section">
 	<div class="container">
-		<div class="land-grid">
-			<div class="land-content">
-				<h2>{$t('visionPage.landTitle')}</h2>
-				<p class="lead">{$t('visionPage.landDesc')}</p>
+		<div class="central-grid">
+			<div class="central-images">
+				<img src="/images/casa-central5.jpeg" alt="Central house interior" />
+				<img src="/images/casa-central6.jpeg" alt="Yoga studio space" />
+			</div>
+			<div class="central-content">
+				<h2>{$t('visionPage.centralTitle')}</h2>
+				<p class="lead">{$t('visionPage.centralDesc')}</p>
 				
-				<div class="land-diagram">
-					<div class="parcel project">
-						<span class="parcel-label">Project</span>
-						<span class="parcel-count">2 parcels</span>
-					</div>
-					<div class="parcel available">
-						<span class="parcel-label">Available</span>
-						<span class="parcel-count">2 parcels</span>
-					</div>
+			<div class="central-features">
+				<div class="feature">
+					<span class="feature-icon">◈</span>
+					<p>{$t('visionPage.centralFeatures.events')}</p>
+				</div>
+				<div class="feature">
+					<span class="feature-icon">◎</span>
+					<p>{$t('visionPage.centralFeatures.courses')}</p>
+				</div>
+				<div class="feature">
+					<span class="feature-icon">◇</span>
+					<p>{$t('visionPage.centralFeatures.kitchen')}</p>
 				</div>
 			</div>
-			<div class="land-image">
-				<img src="/images/finca.jpg" alt="Property boundaries" />
 			</div>
 		</div>
 	</div>

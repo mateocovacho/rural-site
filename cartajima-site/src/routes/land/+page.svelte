@@ -13,6 +13,25 @@
 	</div>
 </section>
 
+<!-- Sierra de Ronda Section -->
+<section class="sierra-section">
+	<div class="container-wide">
+		<div class="sierra-grid">
+			<div class="sierra-content">
+				<h2>Sierra de Ronda</h2>
+				<p class="lead">La Serranía de Ronda, en la provincia de Málaga, es uno de los destinos más completos de Andalucía, combinando un patrimonio histórico monumental con paisajes naturales espectaculares y una red de pintorescos "pueblos blancos".</p>
+			</div>
+			<div class="sierra-images">
+				<img src="/images/ronda.jpg" alt="Puente de Ronda" />
+				<img src="/images/Cueva-de-la-Pileta.jpg" alt="Cueva del Gato" />
+				<img src="/images/cartajima casas blancas.jpg" alt="Pueblo blanco" />
+				<img src="/images/Setenil-de-las-Bodegas-31-scaled.jpg" alt="Setenil de las Bodegas" />
+				<img src="/images/cartajimafiesta.png" alt="Tradición local" />
+			</div>
+		</div>
+	</div>
+</section>
+
 <!-- Valle del Genal Section -->
 <section class="valle-section">
 	<div class="container-wide">
@@ -37,7 +56,7 @@
 				</div>
 			</div>
 			<div class="valle-image">
-				<img src="/images/bosque2.jpeg" alt="Valle del Genal chestnut forest" />
+				<img src="/images/valledelgenal.jpg" alt="Valle del Genal chestnut forest" />
 			</div>
 		</div>
 	</div>
@@ -72,6 +91,19 @@
 	</div>
 </section>
 
+<!-- Panoramic Views -->
+<section class="panorama-section">
+	<div class="container-wide">
+		<h2>{$t('landPage.viewsTitle')}</h2>
+		<p class="lead">{$t('landPage.viewsDesc')}</p>
+		
+		<div class="panorama-grid">
+			<img src="/images/MirandoAlSur.gif" alt="Panoramic view south" />
+			<img src="/images/riscos.gif" alt="Rocky peaks view" />
+		</div>
+	</div>
+</section>
+
 <!-- Water Features Section -->
 <section class="water-section">
 	<div class="container">
@@ -90,32 +122,6 @@
 			<div class="water-item">
 				<img src="/images/casa-central7.jpeg" alt="Natural pool" />
 				<p class="caption">{$t('landPage.captions.pool')}</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- Accessibility Section -->
-<section class="access-section">
-	<div class="container">
-		<div class="access-grid">
-			<div class="access-content">
-				<h2>{$t('landPage.accessTitle')}</h2>
-				<p class="lead">{$t('landPage.accessDesc')}</p>
-				
-				<div class="access-features">
-					<div class="access-feature">
-						<h3>Current</h3>
-						<p>40 min to Marbella<br/>15 min to Ronda</p>
-					</div>
-					<div class="access-feature future">
-						<h3>Future</h3>
-						<p>Road expansion planned<br/>Reduced travel times</p>
-					</div>
-				</div>
-			</div>
-			<div class="access-map">
-				<img src="/images/Captura-de-pantalla-2026-02-24-a-las-18.21.03.png" alt="Route from Marbella" />
 			</div>
 		</div>
 	</div>
@@ -147,15 +153,28 @@
 	</div>
 </section>
 
-<!-- Panoramic Views -->
-<section class="panorama-section">
-	<div class="container-wide">
-		<h2>{$t('landPage.viewsTitle')}</h2>
-		<p class="lead">{$t('landPage.viewsDesc')}</p>
-		
-		<div class="panorama-grid">
-			<img src="/images/MirandoAlSur.gif" alt="Panoramic view south" />
-			<img src="/images/riscos.gif" alt="Rocky peaks view" />
+<!-- Accessibility Section -->
+<section class="access-section">
+	<div class="container">
+		<div class="access-grid">
+			<div class="access-content">
+				<h2>{$t('landPage.accessTitle')}</h2>
+				<p class="lead">{$t('landPage.accessDesc')}</p>
+				
+				<div class="access-features">
+					<div class="access-feature">
+						<h3>Current</h3>
+						<p>40 min to Marbella<br/>15 min to Ronda</p>
+					</div>
+					<div class="access-feature future">
+						<h3>Future</h3>
+						<p>Road expansion planned<br/>Reduced travel times</p>
+					</div>
+				</div>
+			</div>
+			<div class="access-map">
+				<img src="/images/Captura-de-pantalla-2026-02-24-a-las-18.21.03.png" alt="Route from Marbella" />
+			</div>
 		</div>
 	</div>
 </section>
@@ -170,6 +189,43 @@
 	.page-header h1 {
 		font-size: 3rem;
 		margin: 0;
+	}
+	
+	/* Sierra Section */
+	.sierra-section {
+		padding: 6rem 0;
+		background: var(--color-bg-secondary);
+	}
+	
+	.sierra-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 4rem;
+		align-items: center;
+	}
+	
+	.sierra-content h2 {
+		font-size: 2rem;
+		margin-bottom: 1.5rem;
+	}
+	
+	.sierra-images {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 200px 200px;
+		gap: 1rem;
+	}
+	
+	.sierra-images img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 4px;
+	}
+	
+	.sierra-images img:first-child {
+		grid-column: span 2;
+		grid-row: span 2;
 	}
 	
 	/* Valle Section */
@@ -466,11 +522,22 @@
 			font-size: 2rem;
 		}
 		
+		.sierra-grid,
 		.valle-grid,
 		.cartajima-grid,
 		.access-grid {
 			grid-template-columns: 1fr;
 			gap: 2rem;
+		}
+		
+		.sierra-images {
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 150px 150px 150px;
+		}
+		
+		.sierra-images img:first-child {
+			grid-column: span 2;
+			grid-row: span 1;
 		}
 		
 		.cartajima-images {
