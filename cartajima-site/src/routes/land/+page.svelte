@@ -3,16 +3,10 @@
 	import { onMount } from 'svelte';
 	
 	let sierraSlideIndex = $state(0);
-	let cartajimaSlideIndex = $state(0);
 	
 	const sierraSlides = [
 		'/images/Setenil-de-las-Bodegas-31-scaled.jpg',
 		'/images/cartajimafiesta.png'
-	];
-	
-	const cartajimaSlides = [
-		'/images/ecoturismo5.jpg',
-		'/images/cartajima casas blancas.jpg'
 	];
 	
 	onMount(() => {
@@ -20,13 +14,8 @@
 			sierraSlideIndex = (sierraSlideIndex + 1) % sierraSlides.length;
 		}, 4000);
 		
-		const cartajimaInterval = setInterval(() => {
-			cartajimaSlideIndex = (cartajimaSlideIndex + 1) % cartajimaSlides.length;
-		}, 5000);
-		
 		return () => {
 			clearInterval(sierraInterval);
-			clearInterval(cartajimaInterval);
 		};
 	});
 </script>
@@ -45,20 +34,21 @@
 <!-- Sierra de Ronda Section -->
 <section class="sierra-section">
 	<div class="container-wide">
-		<div class="sierra-grid">
-			<div class="sierra-content">
-				<h2>Sierra de Ronda</h2>
-				<p class="lead">La Serranía de Ronda, en la provincia de Málaga, es uno de los destinos más completos de Andalucía, combinando un patrimonio histórico monumental con paisajes naturales espectaculares y una red de pintorescos "pueblos blancos".</p>
-			</div>
-			<div class="sierra-images">
+		<h2>Sierra de Ronda</h2>
+		<p class="lead">La Serranía de Ronda, en la provincia de Málaga, es uno de los destinos más completos de Andalucía, combinando un patrimonio histórico monumental con paisajes naturales espectaculares y una red de pintorescos "pueblos blancos".</p>
+		
+		<div class="sierra-gallery">
+			<div class="sierra-main">
 				<img src="/images/ronda.jpg" alt="Puente de Ronda" />
+			</div>
+			<div class="sierra-slideshow-large slideshow">
+				{#each sierraSlides as slide, i}
+					<img src={slide} alt="Serranía de Ronda - Cultura y tradición" class:active={i === sierraSlideIndex} />
+				{/each}
+			</div>
+			<div class="sierra-small">
 				<img src="/images/Cueva-de-la-Pileta.jpg" alt="Cueva del Gato" />
 				<img src="/images/cartajima casas blancas.jpg" alt="Pueblo blanco" />
-				<div class="slideshow">
-					{#each sierraSlides as slide, i}
-						<img src={slide} alt="Serranía de Ronda" class:active={i === sierraSlideIndex} />
-					{/each}
-				</div>
 			</div>
 		</div>
 	</div>
@@ -85,11 +75,7 @@
 		<div class="cartajima-grid">
 			<div class="cartajima-images">
 				<img src="/images/cartajima.jpg" alt="Cartajima village" />
-				<div class="slideshow cartajima-slideshow">
-					{#each cartajimaSlides as slide, i}
-						<img src={slide} alt="White village in valley" class:active={i === cartajimaSlideIndex} />
-					{/each}
-				</div>
+				<img src="/images/cartajima casas blancas.jpg" alt="Pueblo blanco Cartajima" />
 			</div>
 			<div class="cartajima-content">
 				<h2>{$t('landPage.cartajimaTitle')}</h2>
@@ -222,37 +208,46 @@
 	.sierra-section {
 		padding: 6rem 0;
 		background: var(--color-bg-secondary);
+		text-align: center;
 	}
 	
-	.sierra-grid {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 4rem;
-		align-items: center;
-	}
-	
-	.sierra-content h2 {
+	.sierra-section h2 {
 		font-size: 2rem;
 		margin-bottom: 1.5rem;
 	}
 	
-	.sierra-images {
+	.sierra-gallery {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: 200px 200px;
+		grid-template-columns: 1fr 2fr 1fr;
 		gap: 1rem;
+		margin-top: 3rem;
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
-	.sierra-images img {
+	.sierra-main img {
 		width: 100%;
-		height: 100%;
+		height: 500px;
 		object-fit: cover;
 		border-radius: 4px;
 	}
 	
-	.sierra-images img:first-child {
-		grid-column: span 2;
-		grid-row: span 2;
+	.sierra-slideshow-large {
+		height: 500px;
+	}
+	
+	.sierra-small {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+	
+	.sierra-small img {
+		flex: 1;
+		width: 100%;
+		object-fit: cover;
+		border-radius: 4px;
 	}
 	
 	.slideshow {
@@ -277,10 +272,6 @@
 	
 	.slideshow img.active {
 		opacity: 1;
-	}
-	
-	.cartajima-slideshow {
-		height: 300px;
 	}
 	
 	/* Valle Section */
@@ -577,7 +568,6 @@
 			font-size: 2rem;
 		}
 		
-		.sierra-grid,
 		.valle-grid,
 		.cartajima-grid,
 		.access-grid {
@@ -585,14 +575,22 @@
 			gap: 2rem;
 		}
 		
-		.sierra-images {
-			grid-template-columns: 1fr 1fr;
-			grid-template-rows: 150px 150px 150px;
+		.sierra-gallery {
+			grid-template-columns: 1fr;
+			gap: 1rem;
 		}
 		
-		.sierra-images img:first-child {
-			grid-column: span 2;
-			grid-row: span 1;
+		.sierra-main img,
+		.sierra-slideshow-large {
+			height: 250px;
+		}
+		
+		.sierra-small {
+			flex-direction: row;
+		}
+		
+		.sierra-small img {
+			height: 150px;
 		}
 		
 		.cartajima-images {

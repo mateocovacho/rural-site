@@ -335,13 +335,13 @@
 	}
 	
 	.parcel.project {
-		background: var(--color-accent-earth);
+		background: rgba(198, 40, 40, 0.5);
 		color: var(--color-text-light);
 	}
 	
 	.parcel.available {
-		background: #D4A574;
-		color: var(--color-text-light);
+		background: rgba(249, 168, 37, 0.5);
+		color: var(--color-text-primary);
 	}
 	
 	.parcel-label {

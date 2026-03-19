@@ -21,7 +21,7 @@ Añadir TODO: preguntar al cliente qué nota es. opencode-version/TODO.md
 
 ## home3.png vs home3mod.png - Ubicación
 **Cambios necesarios:**
-1. Cambiar tercer bloque de estadísticas: Reemplazar "78k m² Bosques de castaño" por "En el corazón de la Sierra de Ronda"
+1. Cambiar tercer bloque de estadísticas: Reemplazar "78k m² Bosques de castaño" por "En la Sierra de Ronda"
 2. Reemplazar mapa único por tres imágenes diferentes Uno al lado de la otra.:
    - opencode-version/planos sitiacion/goglemaps.png
    - La imagen actual Que ya está.

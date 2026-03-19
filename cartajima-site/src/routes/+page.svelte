@@ -58,8 +58,7 @@
 				<p>{$t('location.ronda')}</p>
 			</div>
 			<div class="location-card">
-				<span class="time">♥</span>
-				<p>{$t('location.sierra')}</p>
+				<span class="location-label">{$t('location.sierra')}</span>
 			</div>
 		</div>
 		
@@ -221,6 +220,16 @@
 		font-weight: 600;
 		color: var(--color-accent-earth);
 		margin-bottom: 0.5rem;
+	}
+	
+	.location-card .location-label {
+		display: block;
+		font-family: var(--font-heading);
+		font-size: 1.4rem;
+		font-weight: 600;
+		color: var(--color-accent-earth);
+		margin-bottom: 0.5rem;
+		line-height: 1.3;
 	}
 	
 	.location-card p {
