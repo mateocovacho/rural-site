@@ -44,28 +44,27 @@ export const t = derived(currentLang, ($lang) => {
 const translations = {
 	en: {
 		nav: {
-			home: 'Home',
-			vision: 'Project',
-			land: 'The Land',
-			contact: 'Contact'
+			home: 'inicio',
+			vision: 'proyecto',
+			land: 'entorno',
+			contact: 'contacto'
 		},
 		hero: {
 			title: 'Cartajima. Valle del Genal. 78,000 m².',
-			subtitle: 'The luxury of the future is space, silence, and connection with nature'
+			subtitle: 'EL FUTURO DEL LUJO. INTIMIDAD Y CONEXIÓN CON LA NATURALEZA',
+			license: 'FINCA CON LICENCIA PARA DESARROLLO DE ECORESORT'
 		},
 		vision: {
-			title: 'Project',
-			concept: '10 casitas scattered across the land',
-			privacy: 'Each guest feels alone with nature',
-			central: 'A central house for gathering',
-			description: 'An intimate collection of ten casitas, each positioned for total privacy and connection with nature, anchored by a central space for community and shared experiences.'
+			title: 'Proyecto',
+			description: 'Conjunto de 10 casitas (35m²) para 2-3 personas, emplazadas de manera que se tenga total sensación de intimidad. Un gran espacio central donde celebrar eventos, cursos y que sirva de punto de conexión entre personas que comparten ese motivo. Todo ello rodeado de una naturaleza impresionante.'
 		},
 		location: {
-			title: 'Location',
-			marbella: '40 min to Marbella',
-			ronda: '15 min to Ronda',
-			forest: 'Chestnut forests',
-			description: 'Cartajima marks the highest entry point to Valle del Genal, a valley of singular landscape beauty protected for its unique chestnut forests.'
+			title: 'Ubicación',
+			marbella: '40 min a Marbella',
+			ronda: '15 min a Ronda',
+			sierra: 'En el corazón de la Sierra de Ronda',
+			description: 'Cartajima marks the highest entry point to Valle del Genal, a valley of singular landscape beauty protected for its unique chestnut forests.',
+			gps: '36°37\'39.2"N 5°09\'39.7"W'
 		},
 		water: {
 			title: 'The Water',
@@ -82,7 +81,7 @@ const translations = {
 			description: 'More than 20 years since acquiring the finca, waiting for the alignment of Ayuntamiento, Junta de Andalucía, and Diputación de Málaga. The license is now secured, but family and personal circumstances have changed.'
 		},
 		cta: {
-			view: 'View the Project',
+			view: 'Ver Proyecto de Actuación',
 			contact: 'Contact',
 			invitation: 'An invitation to continue the legacy',
 			tagline: 'The license is ready. The vision is clear. The timing is now.'
@@ -90,13 +89,13 @@ const translations = {
 		visionPage: {
 			title: 'Project',
 			layout: 'The Layout',
-			layoutDesc: 'Ten casitas positioned across 78,000 m² to ensure each guest experiences total privacy and immersion in nature. The distances between dwellings create a sense of solitude.',
+			layoutDesc: 'Ten casitas positioned across 78,000 m² to ensure each guest experiences total privacy and immersion in nature.',
 			centralTitle: 'The Central House',
 			centralDesc: 'A gathering space for events, courses, and community. The balance between private retreat and social connection.',
 			centralFeatures: {
 				events: 'Event space for gatherings',
 				courses: 'Courses and workshops',
-				kitchen: 'Community kitchen and dining'
+				kitchen: 'Reception, central of services'
 			},
 			landTitle: 'Land Division',
 			landDesc: 'The project occupies 2 of 4 parcels, leaving 2 additional parcels available for expansion or alternative uses.',
@@ -104,7 +103,7 @@ const translations = {
 			infrastructureDesc: 'Water supply from village connection and natural spring. Electricity post on the finca. South-facing orientation with moderate slope.',
 			infraFeatures: {
 				water: 'Water',
-				waterDesc: 'Village supply + natural spring that never dries',
+				waterDesc: 'Village supply + natural spring',
 				electricity: 'Electricity',
 				electricityDesc: 'Connection post on the finca',
 				orientation: 'Orientation',
@@ -113,7 +112,7 @@ const translations = {
 			rendersTitle: 'Concept Renderings',
 			rendersDesc: 'Visualization of the casitas integrated into the landscape',
 			specs: {
-				casitas: '10 casitas + main house',
+				casitas: '10 casitas + main house and warehouse',
 				land: '78,000 m²',
 				parcels: '2 parcels for project, 2 available',
 				location: 'Cartajima, Valle del Genal'
@@ -186,28 +185,27 @@ const translations = {
 	},
 	es: {
 		nav: {
-			home: 'Inicio',
-			vision: 'Proyecto',
-			land: 'Entorno',
-			contact: 'Contacto'
+			home: 'inicio',
+			vision: 'proyecto',
+			land: 'entorno',
+			contact: 'contacto'
 		},
 		hero: {
 			title: 'Cartajima. Valle del Genal. 78.000 m².',
-			subtitle: 'El lujo del futuro es espacio, silencio y conexión con la naturaleza'
+			subtitle: 'EL FUTURO DEL LUJO. INTIMIDAD Y CONEXIÓN CON LA NATURALEZA',
+			license: 'FINCA CON LICENCIA PARA DESARROLLO DE ECORESORT'
 		},
 		vision: {
 			title: 'Proyecto',
-			concept: '10 casitas dispersas por la finca',
-			privacy: 'Cada huésped se siente solo con la naturaleza',
-			central: 'Una casa central para reunirse',
-			description: 'Una colección íntima de diez casitas, cada una posicionada para total privacidad y conexión con la naturaleza, ancladas por un espacio central para la comunidad y experiencias compartidas.'
+			description: 'Conjunto de 10 casitas (35m²) para 2-3 personas, emplazadas de manera que se tenga total sensación de intimidad. Un gran espacio central donde celebrar eventos, cursos y que sirva de punto de conexión entre personas que comparten ese motivo. Todo ello rodeado de una naturaleza impresionante.'
 		},
 		location: {
 			title: 'Ubicación',
 			marbella: '40 min a Marbella',
 			ronda: '15 min a Ronda',
-			forest: 'Bosques de castaño',
-			description: 'Cartajima marca la entrada más alta al Valle del Genal, un valle de belleza paisajística singular protegido por sus únicos bosques de castaño.'
+			sierra: 'En el corazón de la Sierra de Ronda',
+			description: 'Cartajima marca la entrada más alta al Valle del Genal, un valle de belleza paisajística singular protegido por sus únicos bosques de castaño.',
+			gps: '36°37\'39.2"N 5°09\'39.7"W'
 		},
 		water: {
 			title: 'El Agua',
@@ -224,7 +222,7 @@ const translations = {
 			description: 'Más de 20 años desde la adquisición de la finca, esperando la alineación del Ayuntamiento, Junta de Andalucía y Diputación de Málaga. La licencia está asegurada, pero las circunstancias familiares y personales han cambiado.'
 		},
 		cta: {
-			view: 'Ver el Proyecto',
+			view: 'Ver Proyecto de Actuación',
 			contact: 'Contacto',
 			invitation: 'Una invitación para continuar el legado',
 			tagline: 'La licencia está lista. La visión es clara. El momento es ahora.'
@@ -232,13 +230,13 @@ const translations = {
 		visionPage: {
 			title: 'Proyecto',
 			layout: 'La Distribución',
-			layoutDesc: 'Diez casitas distribuidas en 78.000 m² para garantizar que cada huésped experimente total privacidad e inmersión en la naturaleza. Las distancias entre viviendas crean una sensación de soledad.',
+			layoutDesc: 'Diez casitas distribuidas en 78.000 m² para garantizar que cada huésped experimente total privacidad e inmersión en la naturaleza.',
 			centralTitle: 'La Casa Central',
 			centralDesc: 'Un espacio de encuentro para eventos, cursos y comunidad. El equilibrio entre retiro privado y conexión social.',
 			centralFeatures: {
 				events: 'Espacio para eventos y reuniones',
 				courses: 'Cursos y talleres',
-				kitchen: 'Cocina y comedor comunitarios'
+				kitchen: 'Recepción, central de servicios'
 			},
 			landTitle: 'División de la Finca',
 			landDesc: 'El proyecto ocupa 2 de 4 parcelas, dejando 2 parcelas adicionales disponibles para expansión o usos alternativos.',
@@ -246,7 +244,7 @@ const translations = {
 			infrastructureDesc: 'Suministro de agua del pueblo y manantial natural. Poste de electricidad en la finca. Orientación sur con pendiente moderada.',
 			infraFeatures: {
 				water: 'Agua',
-				waterDesc: 'Suministro del pueblo + manantial que nunca se seca',
+				waterDesc: 'Suministro del pueblo + manantial',
 				electricity: 'Electricidad',
 				electricityDesc: 'Poste de conexión en la finca',
 				orientation: 'Orientación',
@@ -255,7 +253,7 @@ const translations = {
 			rendersTitle: 'Renderizados Conceptuales',
 			rendersDesc: 'Visualización de las casitas integradas en el paisaje',
 			specs: {
-				casitas: '10 casitas + casa principal',
+				casitas: '10 casitas + casa principal y almacén',
 				land: '78.000 m²',
 				parcels: '2 parcelas para proyecto, 2 disponibles',
 				location: 'Cartajima, Valle del Genal'

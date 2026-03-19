@@ -18,7 +18,7 @@
 	<div class="container-wide">
 		<div class="layout-grid">
 			<div class="layout-content">
-				<h2>{$t('visionPage.layout')}</h2>
+				<h2>Proyecto</h2>
 				<p class="lead">{$t('visionPage.layoutDesc')}</p>
 				
 				<div class="specs-grid">
@@ -53,12 +53,12 @@
 				
 				<div class="land-diagram">
 					<div class="parcel project">
-						<span class="parcel-label">Project</span>
-						<span class="parcel-count">2 parcels</span>
+						<span class="parcel-label">PARCELA PARA PROYECTO</span>
+						<span class="parcel-count">40.000M²</span>
 					</div>
 					<div class="parcel available">
-						<span class="parcel-label">Available</span>
-						<span class="parcel-count">2 parcels</span>
+						<span class="parcel-label">PARCELA PARA OTROS USOS</span>
+						<span class="parcel-count">38.000M²</span>
 					</div>
 				</div>
 			</div>
@@ -340,8 +340,8 @@
 	}
 	
 	.parcel.available {
-		background: var(--color-bg-primary);
-		border: 2px dashed var(--color-accent-earth);
+		background: #D4A574;
+		color: var(--color-text-light);
 	}
 	
 	.parcel-label {

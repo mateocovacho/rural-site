@@ -1,5 +1,34 @@
 <script lang="ts">
 	import { t } from '$lib/i18n/translations';
+	import { onMount } from 'svelte';
+	
+	let sierraSlideIndex = $state(0);
+	let cartajimaSlideIndex = $state(0);
+	
+	const sierraSlides = [
+		'/images/Setenil-de-las-Bodegas-31-scaled.jpg',
+		'/images/cartajimafiesta.png'
+	];
+	
+	const cartajimaSlides = [
+		'/images/ecoturismo5.jpg',
+		'/images/cartajima casas blancas.jpg'
+	];
+	
+	onMount(() => {
+		const sierraInterval = setInterval(() => {
+			sierraSlideIndex = (sierraSlideIndex + 1) % sierraSlides.length;
+		}, 4000);
+		
+		const cartajimaInterval = setInterval(() => {
+			cartajimaSlideIndex = (cartajimaSlideIndex + 1) % cartajimaSlides.length;
+		}, 5000);
+		
+		return () => {
+			clearInterval(sierraInterval);
+			clearInterval(cartajimaInterval);
+		};
+	});
 </script>
 
 <svelte:head>
@@ -25,8 +54,11 @@
 				<img src="/images/ronda.jpg" alt="Puente de Ronda" />
 				<img src="/images/Cueva-de-la-Pileta.jpg" alt="Cueva del Gato" />
 				<img src="/images/cartajima casas blancas.jpg" alt="Pueblo blanco" />
-				<img src="/images/Setenil-de-las-Bodegas-31-scaled.jpg" alt="Setenil de las Bodegas" />
-				<img src="/images/cartajimafiesta.png" alt="Tradición local" />
+				<div class="slideshow">
+					{#each sierraSlides as slide, i}
+						<img src={slide} alt="Serranía de Ronda" class:active={i === sierraSlideIndex} />
+					{/each}
+				</div>
 			</div>
 		</div>
 	</div>
@@ -39,21 +71,6 @@
 			<div class="valle-content">
 				<h2>{$t('landPage.valleTitle')}</h2>
 				<p class="lead">{$t('landPage.valleDesc')}</p>
-				
-				<div class="valle-features">
-					<div class="feature">
-						<span class="feature-icon">🌰</span>
-						<p>Protected chestnut forest landscape</p>
-					</div>
-					<div class="feature">
-						<span class="feature-icon">🏛️</span>
-						<p>Special protection status</p>
-					</div>
-					<div class="feature">
-						<span class="feature-icon">🍂</span>
-						<p>Golden autumn colors</p>
-					</div>
-				</div>
 			</div>
 			<div class="valle-image">
 				<img src="/images/valledelgenal.jpg" alt="Valle del Genal chestnut forest" />
@@ -68,7 +85,11 @@
 		<div class="cartajima-grid">
 			<div class="cartajima-images">
 				<img src="/images/cartajima.jpg" alt="Cartajima village" />
-				<img src="/images/ecoturismo5.jpg" alt="White village in valley" />
+				<div class="slideshow cartajima-slideshow">
+					{#each cartajimaSlides as slide, i}
+						<img src={slide} alt="White village in valley" class:active={i === cartajimaSlideIndex} />
+					{/each}
+				</div>
 			</div>
 			<div class="cartajima-content">
 				<h2>{$t('landPage.cartajimaTitle')}</h2>
@@ -94,12 +115,17 @@
 <!-- Panoramic Views -->
 <section class="panorama-section">
 	<div class="container-wide">
-		<h2>{$t('landPage.viewsTitle')}</h2>
-		<p class="lead">{$t('landPage.viewsDesc')}</p>
+		<h2>Las Vistas <strong>desde la finca</strong></h2>
 		
 		<div class="panorama-grid">
-			<img src="/images/MirandoAlSur.gif" alt="Panoramic view south" />
-			<img src="/images/riscos.gif" alt="Rocky peaks view" />
+			<div class="panorama-item">
+				<img src="/images/MirandoAlSur.gif" alt="Panoramic view south" />
+				<p class="caption">Al sur, el Valle del Genal y el Mediterráneo al fondo</p>
+			</div>
+			<div class="panorama-item">
+				<img src="/images/riscos.gif" alt="Rocky peaks view" />
+				<p class="caption">Al norte, "Los Riscos" y la Serranía de Ronda</p>
+			</div>
 		</div>
 	</div>
 </section>
@@ -107,21 +133,22 @@
 <!-- Water Features Section -->
 <section class="water-section">
 	<div class="container">
-		<h2>{$t('landPage.waterTitle')}</h2>
+		<h2>Presencia del Agua</h2>
 		<p class="lead">{$t('landPage.waterDesc')}</p>
+		<p class="lead">La finca linda con el Arroyo Blanco con pozas y cascadas para el baño. El Río Genal está cerca, y cuenta con grandes pozas de agua cristalina, nacimientos de agua, cascadas...</p>
 		
 		<div class="water-gallery">
 			<div class="water-item large">
 				<img src="/images/pozas.jpg" alt="Natural swimming pools" />
-				<p class="caption">{$t('landPage.captions.pozas')}</p>
+				<p class="caption">Nacimiento del Río Genal</p>
 			</div>
 			<div class="water-item">
 				<img src="/images/poza.JPG" alt="Water feature" />
-				<p class="caption">{$t('landPage.captions.cascadas')}</p>
+				<p class="caption">Cascadas del Arroyo Blanco en la propia finca</p>
 			</div>
 			<div class="water-item">
-				<img src="/images/casa-central7.jpeg" alt="Natural pool" />
-				<p class="caption">{$t('landPage.captions.pool')}</p>
+				<img src="/images/aguas-de-genal.jpg" alt="Genal river waters" />
+				<p class="caption">Pozas cristalinas del Río Genal</p>
 			</div>
 		</div>
 	</div>
@@ -228,6 +255,34 @@
 		grid-row: span 2;
 	}
 	
+	.slideshow {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		border-radius: 4px;
+	}
+	
+	.slideshow img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		opacity: 0;
+		transition: opacity 1s ease-in-out;
+		border-radius: 4px;
+	}
+	
+	.slideshow img.active {
+		opacity: 1;
+	}
+	
+	.cartajima-slideshow {
+		height: 300px;
+	}
+	
 	/* Valle Section */
 	.valle-section {
 		padding: 6rem 0;
@@ -250,27 +305,6 @@
 		line-height: 1.7;
 		margin-bottom: 2rem;
 		opacity: 0.9;
-	}
-	
-	.valle-features {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-	}
-	
-	.feature {
-		display: flex;
-		align-items: center;
-		gap: 1rem;
-	}
-	
-	.feature-icon {
-		font-size: 1.5rem;
-		min-width: 2rem;
-	}
-	
-	.feature p {
-		margin: 0;
 	}
 	
 	.valle-image img {
@@ -503,6 +537,10 @@
 		margin-bottom: 1rem;
 	}
 	
+	.panorama-section h2 strong {
+		font-weight: 700;
+	}
+	
 	.panorama-grid {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -510,11 +548,28 @@
 		margin-top: 3rem;
 	}
 	
-	.panorama-grid img {
+	.panorama-item {
+		position: relative;
+	}
+	
+	.panorama-item img {
 		width: 100%;
 		height: 350px;
 		object-fit: cover;
 		border-radius: 4px;
+	}
+	
+	.panorama-item .caption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(61, 61, 61, 0.8);
+		color: var(--color-text-light);
+		padding: 0.75rem;
+		font-size: 0.9rem;
+		margin: 0;
+		border-radius: 0 0 4px 4px;
 	}
 	
 	@media (max-width: 768px) {
