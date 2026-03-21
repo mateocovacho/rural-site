@@ -16,8 +16,8 @@
 		</div>
 		<p class="subtitle">{$t('hero.subtitle')}</p>
 		<div class="owner-note">
-			<span>NOTA DEL PROPIETARIO</span>
-			<a href="/nota-propietario">link al texto completo</a>
+			<span class="owner-label">NOTA DEL PROPIETARIO</span>
+			<a href="/nota-propietario" class="owner-link">Leer la visión completa →</a>
 		</div>
 	</div>
 	<div class="hero-image">
@@ -119,19 +119,33 @@
 	
 	.owner-note {
 		margin-top: 2rem;
-		padding: 1rem;
-		background: rgba(255, 255, 255, 0.5);
+		padding: 1.25rem 1.5rem;
+		background: rgba(255, 255, 255, 0.6);
 		border-radius: 4px;
-		font-size: 0.9rem;
+		border-left: 3px solid var(--color-accent-earth);
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		align-items: flex-start;
 	}
 	
-	.owner-note span {
+	.owner-label {
+		font-size: 0.75rem;
 		font-weight: 600;
-		margin-right: 0.5rem;
+		letter-spacing: 0.1em;
+		opacity: 0.7;
 	}
 	
-	.owner-note a {
+	.owner-link {
+		font-size: 1rem;
 		color: var(--color-accent-earth);
+		text-decoration: none;
+		font-weight: 500;
+		transition: opacity 0.2s;
+	}
+	
+	.owner-link:hover {
+		opacity: 0.7;
 	}
 	
 	.hero-image {

@@ -172,7 +172,8 @@ const translations = {
 				agency: 'Agency',
 				message: 'Message',
 				send: 'Send Inquiry',
-				placeholder: 'Tell us about your interest in the project...'
+				placeholder: 'Tell us about your interest in the project...',
+				formNotice: 'Contact form will be available soon'
 			}
 		},
 		password: {
@@ -313,7 +314,8 @@ const translations = {
 				agency: 'Agencia',
 				message: 'Mensaje',
 				send: 'Enviar Consulta',
-				placeholder: 'Cuéntanos sobre tu interés en el proyecto...'
+				placeholder: 'Cuéntanos sobre tu interés en el proyecto...',
+				formNotice: 'El formulario de contacto estará disponible próximamente'
 			}
 		},
 		password: {
