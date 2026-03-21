@@ -1,11 +1,33 @@
 <script lang="ts">
 	import { t } from '$lib/i18n/translations';
+	
+	let lightboxOpen = $state(false);
+	let lightboxImage = $state('');
+	
+	function openLightbox(src: string) {
+		lightboxImage = src;
+		lightboxOpen = true;
+	}
+	
+	function closeLightbox() {
+		lightboxOpen = false;
+	}
 </script>
 
 <svelte:head>
 	<title>Cartajima | Valle del Genal</title>
 	<meta name="description" content="Cartajima Ecotourism Estate - 78,000 m² of chestnut forests in Valle del Genal" />
 </svelte:head>
+
+<!-- Lightbox Modal -->
+{#if lightboxOpen}
+	<!-- svelte-ignore a11y_click_events_have_key_events -->
+	<div class="lightbox" onclick={closeLightbox} role="dialog" aria-modal="true" aria-label="Image viewer" tabindex="-1">
+		<button class="lightbox-close" onclick={closeLightbox} aria-label="Close">×</button>
+		<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+		<img src={lightboxImage} alt="Expanded view" onclick={(e) => e.stopPropagation()} />
+	</div>
+{/if}
 
 <!-- Hero Section -->
 <section class="hero">
@@ -63,9 +85,15 @@
 		</div>
 		
 		<div class="location-maps">
-			<img src="/images/goglemaps.png" alt="Google Maps location" />
-			<img src="/images/general.jpg" alt="Location map" />
-			<img src="/images/situacion2.gif" alt="Situation map" />
+			<button type="button" class="map-btn" onclick={() => openLightbox('/images/goglemaps.png')} aria-label="Expand Google Maps location">
+				<img src="/images/goglemaps.png" alt="Google Maps location" />
+			</button>
+			<button type="button" class="map-btn" onclick={() => openLightbox('/images/general.jpg')} aria-label="Expand location map">
+				<img src="/images/general.jpg" alt="Location map" />
+			</button>
+			<button type="button" class="map-btn" onclick={() => openLightbox('/images/situacion2.gif')} aria-label="Expand situation map">
+				<img src="/images/situacion2.gif" alt="Situation map" />
+			</button>
 		</div>
 		
 		<p class="gps-coords">{$t('location.gps')}</p>
@@ -260,12 +288,64 @@
 		margin: 0 auto 2rem;
 	}
 	
-	.location-maps img {
+	.map-btn {
+		padding: 0;
+		border: none;
+		background: none;
+		cursor: pointer;
+		transition: transform 0.2s;
+	}
+	
+	.map-btn img {
 		width: 100%;
 		height: 250px;
 		object-fit: cover;
 		border-radius: 4px;
 		box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+		transition: box-shadow 0.2s;
+	}
+	
+	.map-btn:hover img {
+		box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+	}
+	
+	.lightbox {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.9);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1000;
+		cursor: pointer;
+	}
+	
+	.lightbox img {
+		max-width: 90%;
+		max-height: 90%;
+		object-fit: contain;
+		border-radius: 4px;
+	}
+	
+	.lightbox-close {
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		font-size: 3rem;
+		color: white;
+		background: none;
+		border: none;
+		cursor: pointer;
+		line-height: 1;
+		opacity: 0.8;
+		transition: opacity 0.2s;
+	}
+	
+	.lightbox-close:hover {
+		opacity: 1;
 	}
 	
 	.gps-coords {

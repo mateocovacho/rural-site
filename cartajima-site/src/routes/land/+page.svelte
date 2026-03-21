@@ -120,7 +120,6 @@
 <section class="water-section">
 	<div class="container">
 		<h2>Presencia del Agua</h2>
-		<p class="lead">{$t('landPage.waterDesc')}</p>
 		<p class="lead">La finca linda con el Arroyo Blanco con pozas y cascadas para el baño. El Río Genal está cerca, y cuenta con grandes pozas de agua cristalina, nacimientos de agua, cascadas...</p>
 		
 		<div class="water-gallery">

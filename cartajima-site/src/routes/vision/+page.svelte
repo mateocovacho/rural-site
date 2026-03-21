@@ -400,6 +400,19 @@
 			gap: 2rem;
 		}
 		
+		.central-grid {
+			display: flex;
+			flex-direction: column;
+		}
+		
+		.central-content {
+			order: 1;
+		}
+		
+		.central-images {
+			order: 2;
+		}
+		
 		.specs-grid,
 		.infra-grid {
 			grid-template-columns: 1fr;

@@ -44,44 +44,44 @@ export const t = derived(currentLang, ($lang) => {
 const translations = {
 	en: {
 		nav: {
-			home: 'inicio',
-			vision: 'proyecto',
-			land: 'entorno',
-			contact: 'contacto'
+			home: 'Home',
+			vision: 'Project',
+			land: 'Environment',
+			contact: 'Contact'
 		},
 		hero: {
 			title: 'Cartajima. Valle del Genal. 78,000 m².',
-			subtitle: 'EL FUTURO DEL LUJO. INTIMIDAD Y CONEXIÓN CON LA NATURALEZA',
-			license: 'FINCA CON LICENCIA PARA DESARROLLO DE ECORESORT'
+			subtitle: 'THE FUTURE OF LUXURY. INTIMACY AND CONNECTION WITH NATURE',
+			license: 'PROPERTY WITH LICENSE FOR ECORESORT DEVELOPMENT'
 		},
 		vision: {
-			title: 'Proyecto',
-			description: 'Conjunto de 10 casitas (35m²) para 2-3 personas, emplazadas de manera que se tenga total sensación de intimidad. Un gran espacio central donde celebrar eventos, cursos y que sirva de punto de conexión entre personas que comparten ese motivo. Todo ello rodeado de una naturaleza impresionante.'
+			title: 'Project',
+			description: 'A set of 10 small houses (35m²) for 2-3 people, positioned to provide total sense of intimacy. A large central space for events, courses, and as a meeting point for people sharing that purpose. All surrounded by impressive nature.'
 		},
 		location: {
-			title: 'Ubicación',
-			marbella: '40 min a Marbella',
-			ronda: '15 min a Ronda',
-			sierra: 'En el corazón de la Sierra de Ronda',
+			title: 'Location',
+			marbella: '40 min to Marbella',
+			ronda: '15 min to Ronda',
+			sierra: '1h 45 min from Málaga',
 			description: 'Cartajima marks the highest entry point to Valle del Genal, a valley of singular landscape beauty protected for its unique chestnut forests.',
 			gps: '36°37\'39.2"N 5°09\'39.7"W'
 		},
 		water: {
 			title: 'The Water',
 			spring: 'A spring that never dries',
-			stream: 'Arrollo Blanco with cascadas and pozas',
+			stream: 'Arroyo Blanco with waterfalls and natural pools',
 			river: 'Río Genal access',
-			description: 'We have never seen the spring dry, even in the driest years. Arrollo Blanco runs along the southern boundary with waterfalls and natural pools. A short walk leads to Río Genal and its crystal-clear pozas.'
+			description: 'We have never seen the spring dry, even in the driest years. Arroyo Blanco runs along the southern boundary with waterfalls and natural pools. A short walk leads to Río Genal and its crystal-clear pools.'
 		},
 		story: {
 			title: 'The Story',
 			years: '20 years of patience',
 			alignment: 'Political alignment achieved',
 			circumstances: 'Personal circumstances changed',
-			description: 'More than 20 years since acquiring the finca, waiting for the alignment of Ayuntamiento, Junta de Andalucía, and Diputación de Málaga. The license is now secured, but family and personal circumstances have changed.'
+			description: 'More than 20 years since acquiring the estate, waiting for the alignment of Ayuntamiento, Junta de Andalucía, and Diputación de Málaga. The license is now secured, but family and personal circumstances have changed.'
 		},
 		cta: {
-			view: 'Ver Proyecto de Actuación',
+			view: 'View Action Project',
 			contact: 'Contact',
 			invitation: 'An invitation to continue the legacy',
 			tagline: 'The license is ready. The vision is clear. The timing is now.'
@@ -89,7 +89,7 @@ const translations = {
 		visionPage: {
 			title: 'Project',
 			layout: 'The Layout',
-			layoutDesc: 'Ten casitas positioned across 78,000 m² to ensure each guest experiences total privacy and immersion in nature.',
+			layoutDesc: 'Ten small houses distributed across 40,000 m² to ensure each guest experiences total privacy and immersion in nature.',
 			centralTitle: 'The Central House',
 			centralDesc: 'A gathering space for events, courses, and community. The balance between private retreat and social connection.',
 			centralFeatures: {
@@ -100,20 +100,20 @@ const translations = {
 			landTitle: 'Land Division',
 			landDesc: 'The project occupies 2 of 4 parcels, leaving 2 additional parcels available for expansion or alternative uses.',
 			infrastructure: 'Infrastructure',
-			infrastructureDesc: 'Water supply from village connection and natural spring. Electricity post on the finca. South-facing orientation with moderate slope.',
+			infrastructureDesc: 'Water supply from village connection and natural spring. Electricity post on the estate. South-facing orientation with moderate slope.',
 			infraFeatures: {
 				water: 'Water',
 				waterDesc: 'Village supply + natural spring',
 				electricity: 'Electricity',
-				electricityDesc: 'Connection post on the finca',
+				electricityDesc: 'Connection post on the estate',
 				orientation: 'Orientation',
 				orientationDesc: 'South-facing with moderate slope'
 			},
 			rendersTitle: 'Concept Renderings',
-			rendersDesc: 'Visualization of the casitas integrated into the landscape',
+			rendersDesc: 'Visualization of the small houses integrated into the landscape',
 			specs: {
-				casitas: '10 casitas + main house and warehouse',
-				land: '78,000 m²',
+				casitas: '10 small houses + main house and warehouse',
+				land: '40,000 m²',
 				parcels: '2 parcels for project, 2 available',
 				location: 'Cartajima, Valle del Genal'
 			}
@@ -121,16 +121,16 @@ const translations = {
 		landPage: {
 			title: 'The Land',
 			valleTitle: 'Valle del Genal',
-			valleDesc: 'A valley of singular beauty, protected for its exceptional chestnut forest landscape. The golden autumn colors of the castaños draw visitors from across the world.',
+			valleDesc: 'A valley of singular beauty, protected for its exceptional chestnut forest landscape. The golden autumn colors of the chestnut trees draw visitors from across the world.',
 			cartajimaTitle: 'Cartajima',
 			cartajimaDesc: 'The highest entry point to the valley. A white village (pueblo blanco) perched on the mountainside, offering dramatic views and traditional Andalusian character.',
 			waterTitle: 'Water Features',
-			waterDesc: 'Arrollo Blanco runs along the southern boundary with natural cascadas and pozas. The finca enjoys direct access to swimming holes carved by centuries of flowing water.',
+			waterDesc: 'Arroyo Blanco runs along the southern boundary with natural waterfalls and pools. The estate enjoys direct access to swimming holes carved by centuries of flowing water.',
 			accessTitle: 'Accessibility',
 			accessDesc: 'Currently 40 minutes from Marbella, 15 minutes from Ronda — the two most visited destinations in Málaga. Road expansion planned for the coming years will reduce these times significantly.',
 			captions: {
-				pozas: 'Las pozas — crystal clear natural pools',
-				cascadas: 'Arrollo Blanco cascadas',
+				pozas: 'Natural pools — crystal clear water',
+				cascadas: 'Arroyo Blanco waterfalls',
 				pool: 'Natural swimming pool concept'
 			},
 			activitiesTitle: 'Ecotourism in Valle del Genal',
@@ -158,8 +158,8 @@ const translations = {
 			legacyDesc: 'This is not a quick flip. This is a 20-year vision that now awaits the right steward to bring it to life. The license is secured, the water is abundant, and the land is ready.',
 			projectSummary: 'Project Summary',
 			specs: {
-				casitas: '10 casitas + central house',
-				land: '78,000 m² in Valle del Genal',
+				casitas: '10 small houses + central house',
+				land: '40,000 m² in Valle del Genal',
 				license: 'License approved and ready',
 				water: 'Water sources secured (village + spring)',
 				location: '40 min to Marbella, 15 min to Ronda'
@@ -186,10 +186,10 @@ const translations = {
 	},
 	es: {
 		nav: {
-			home: 'inicio',
-			vision: 'proyecto',
-			land: 'entorno',
-			contact: 'contacto'
+			home: 'Inicio',
+			vision: 'Proyecto',
+			land: 'Entorno',
+			contact: 'Contacto'
 		},
 		hero: {
 			title: 'Cartajima. Valle del Genal. 78.000 m².',
@@ -204,16 +204,16 @@ const translations = {
 			title: 'Ubicación',
 			marbella: '40 min a Marbella',
 			ronda: '15 min a Ronda',
-			sierra: 'En el corazón de la Sierra de Ronda',
+			sierra: '1h 45 min de Málaga',
 			description: 'Cartajima marca la entrada más alta al Valle del Genal, un valle de belleza paisajística singular protegido por sus únicos bosques de castaño.',
 			gps: '36°37\'39.2"N 5°09\'39.7"W'
 		},
 		water: {
 			title: 'El Agua',
 			spring: 'Un manantial que nunca se seca',
-			stream: 'Arrollo Blanco con cascadas y pozas',
+			stream: 'Arroyo Blanco con cascadas y pozas',
 			river: 'Acceso al Río Genal',
-			description: 'Nunca hemos visto secarse el manantial, ni siquiera en los años más secos. El Arrollo Blanco discurre por el límite sur con cascadas y pozas naturales. Un corto paseo lleva al Río Genal y sus pozas de agua cristalina.'
+			description: 'Nunca hemos visto secarse el manantial, ni siquiera en los años más secos. El Arroyo Blanco discurre por el límite sur con cascadas y pozas naturales. Un corto paseo lleva al Río Genal y sus pozas de agua cristalina.'
 		},
 		story: {
 			title: 'La Historia',
@@ -231,7 +231,7 @@ const translations = {
 		visionPage: {
 			title: 'Proyecto',
 			layout: 'La Distribución',
-			layoutDesc: 'Diez casitas distribuidas en 78.000 m² para garantizar que cada huésped experimente total privacidad e inmersión en la naturaleza.',
+			layoutDesc: 'Diez casitas distribuidas en 40.000 m² para garantizar que cada huésped experimente total privacidad e inmersión en la naturaleza.',
 			centralTitle: 'La Casa Central',
 			centralDesc: 'Un espacio de encuentro para eventos, cursos y comunidad. El equilibrio entre retiro privado y conexión social.',
 			centralFeatures: {
@@ -255,7 +255,7 @@ const translations = {
 			rendersDesc: 'Visualización de las casitas integradas en el paisaje',
 			specs: {
 				casitas: '10 casitas + casa principal y almacén',
-				land: '78.000 m²',
+				land: '40.000 m²',
 				parcels: '2 parcelas para proyecto, 2 disponibles',
 				location: 'Cartajima, Valle del Genal'
 			}
@@ -267,12 +267,12 @@ const translations = {
 			cartajimaTitle: 'Cartajima',
 			cartajimaDesc: 'La entrada más alta al valle. Un pueblo blanco encaramado en la ladera de la montaña, ofreciendo vistas dramáticas y carácter andaluz tradicional.',
 			waterTitle: 'Características del Agua',
-			waterDesc: 'El Arrollo Blanco discurre por el límite sur con cascadas y pozas naturales. La finca disfruta de acceso directo a pozas de baño talladas por siglos de agua fluyente.',
+			waterDesc: 'El Arroyo Blanco discurre por el límite sur con cascadas y pozas naturales. La finca disfruta de acceso directo a pozas de baño talladas por siglos de agua fluyente.',
 			accessTitle: 'Accesibilidad',
 			accessDesc: 'Actualmente a 40 minutos de Marbella, 15 minutos de Ronda — los dos destinos más visitados de Málaga. Se prevé la ampliación de la carretera en los próximos años que reducirá estos tiempos significativamente.',
 			captions: {
 				pozas: 'Las pozas — piscinas naturales de agua cristalina',
-				cascadas: 'Cascadas del Arrollo Blanco',
+				cascadas: 'Cascadas del Arroyo Blanco',
 				pool: 'Concepto de piscina natural'
 			},
 			activitiesTitle: 'Ecoturismo en Valle del Genal',
@@ -301,7 +301,7 @@ const translations = {
 			projectSummary: 'Resumen del Proyecto',
 			specs: {
 				casitas: '10 casitas + casa central',
-				land: '78.000 m² en Valle del Genal',
+				land: '40.000 m² en Valle del Genal',
 				license: 'Licencia aprobada y lista',
 				water: 'Fuentes de agua aseguradas (pueblo + manantial)',
 				location: '40 min a Marbella, 15 min a Ronda'
