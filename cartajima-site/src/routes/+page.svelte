@@ -3,6 +3,7 @@
 	
 	let lightboxOpen = $state(false);
 	let lightboxImage = $state('');
+	let docsOpen = $state(false);
 	
 	function openLightbox(src: string) {
 		lightboxImage = src;
@@ -12,6 +13,22 @@
 	function closeLightbox() {
 		lightboxOpen = false;
 	}
+	
+	function openDocs() {
+		docsOpen = true;
+	}
+	
+	function closeDocs() {
+		docsOpen = false;
+	}
+
+	const documents = [
+		{ key: 'proyectoActuacion', url: '/documents/proyecto-actuacion.pdf' },
+		{ key: 'anexoI', url: '/documents/anexo-i-autorizacion-ambiental.pdf' },
+		{ key: 'anexoII', url: '/documents/anexo-ii-planos.pdf' },
+		{ key: 'anexoIII', url: '/documents/anexo-iii-viabilidad-economica.pdf' },
+		{ key: 'planosAdicionales', url: '/documents/planos-adicionales.pdf' }
+	];
 </script>
 
 <svelte:head>
@@ -26,6 +43,35 @@
 		<button class="lightbox-close" onclick={closeLightbox} aria-label="Close">×</button>
 		<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
 		<img src={lightboxImage} alt="Expanded view" onclick={(e) => e.stopPropagation()} />
+	</div>
+{/if}
+
+<!-- Documents Modal -->
+{#if docsOpen}
+	<div class="docs-modal" onclick={closeDocs} role="dialog" aria-modal="true">
+		<div class="docs-content" onclick={(e) => e.stopPropagation()}>
+			<button class="docs-close" onclick={closeDocs} aria-label="Close">×</button>
+			<h2>{$t('documents.title')}</h2>
+			<div class="docs-grid">
+				{#each documents as doc}
+					<a href={doc.url} class="doc-card" target="_blank" rel="noopener noreferrer">
+						<div class="doc-icon">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+								<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+								<polyline points="14 2 14 8 20 8"></polyline>
+								<line x1="16" y1="13" x2="8" y2="13"></line>
+								<line x1="16" y1="17" x2="8" y2="17"></line>
+								<polyline points="10 9 9 9 8 9"></polyline>
+							</svg>
+						</div>
+						<div class="doc-info">
+							<h3>{$t(`documents.${doc.key}`)}</h3>
+							<p>{$t(`documents.${doc.key}Desc`)}</p>
+						</div>
+					</a>
+				{/each}
+			</div>
+		</div>
 	</div>
 {/if}
 
@@ -55,7 +101,7 @@
 				<h2>{$t('vision.title')}</h2>
 				<p class="lead">{$t('vision.description')}</p>
 				
-				<a href="/Planos.pdf" class="btn btn-primary" target="_blank">{$t('cta.view')}</a>
+				<button type="button" class="btn btn-primary" onclick={openDocs}>{$t('cta.view')}</button>
 			</div>
 			<div class="vision-image">
 				<img src="/images/IMG_1822.JPG" alt="Valle del Genal landscape" />
@@ -353,6 +399,101 @@
 		font-size: 0.9rem;
 		opacity: 0.7;
 		margin-top: 1rem;
+	}
+
+	/* Documents Modal */
+	.docs-modal {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.85);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1000;
+		cursor: pointer;
+		padding: 2rem;
+	}
+
+	.docs-content {
+		background: var(--color-bg-primary);
+		border-radius: 8px;
+		max-width: 800px;
+		width: 100%;
+		max-height: 90vh;
+		overflow-y: auto;
+		padding: 2.5rem;
+		position: relative;
+		cursor: default;
+	}
+
+	.docs-content h2 {
+		font-size: 1.75rem;
+		margin-bottom: 2rem;
+		color: var(--color-text-primary);
+		text-align: center;
+	}
+
+	.docs-close {
+		position: absolute;
+		top: 1rem;
+		right: 1.25rem;
+		font-size: 2rem;
+		color: var(--color-text-secondary);
+		background: none;
+		border: none;
+		cursor: pointer;
+		line-height: 1;
+		opacity: 0.6;
+		transition: opacity 0.2s;
+	}
+
+	.docs-close:hover {
+		opacity: 1;
+	}
+
+	.docs-grid {
+		display: grid;
+		gap: 1rem;
+	}
+
+	.doc-card {
+		display: flex;
+		align-items: center;
+		gap: 1.25rem;
+		padding: 1.25rem 1.5rem;
+		background: var(--color-bg-secondary);
+		border-radius: 6px;
+		text-decoration: none;
+		transition: all 0.2s;
+		border: 1px solid transparent;
+	}
+
+	.doc-card:hover {
+		border-color: var(--color-accent-earth);
+		transform: translateX(4px);
+	}
+
+	.doc-icon {
+		flex-shrink: 0;
+		color: var(--color-accent-earth);
+		opacity: 0.8;
+	}
+
+	.doc-info h3 {
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--color-text-primary);
+		margin: 0 0 0.25rem 0;
+	}
+
+	.doc-info p {
+		font-size: 0.85rem;
+		color: var(--color-text-secondary);
+		margin: 0;
+		opacity: 0.8;
 	}
 	
 	@media (max-width: 768px) {
