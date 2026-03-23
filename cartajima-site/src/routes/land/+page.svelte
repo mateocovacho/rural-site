@@ -34,8 +34,8 @@
 <!-- Sierra de Ronda Section -->
 <section class="sierra-section">
 	<div class="container-wide">
-		<h2>Sierra de Ronda</h2>
-		<p class="lead">La Serranía de Ronda, en la provincia de Málaga, es uno de los destinos más completos de Andalucía, combinando un patrimonio histórico monumental con paisajes naturales espectaculares y una red de pintorescos "pueblos blancos".</p>
+		<h2>{$t('landPage.sierraTitle')}</h2>
+		<p class="lead">{$t('landPage.sierraDesc')}</p>
 		
 		<div class="sierra-gallery">
 			<div class="sierra-main">
@@ -85,12 +85,12 @@
 					<div class="stat">
 						<span class="stat-value">40</span>
 						<span class="stat-unit">min</span>
-						<span class="stat-label">to Marbella</span>
+						<span class="stat-label">{$t('location.marbella')}</span>
 					</div>
 					<div class="stat">
 						<span class="stat-value">15</span>
 						<span class="stat-unit">min</span>
-						<span class="stat-label">to Ronda</span>
+						<span class="stat-label">{$t('location.ronda')}</span>
 					</div>
 				</div>
 			</div>
@@ -101,16 +101,16 @@
 <!-- Panoramic Views -->
 <section class="panorama-section">
 	<div class="container-wide">
-		<h2>Las Vistas <strong>desde la finca</strong></h2>
+		<h2>{$t('landPage.viewsFromEstate')}</h2>
 		
 		<div class="panorama-grid">
 			<div class="panorama-item">
 				<img src="/images/MirandoAlSur.gif" alt="Panoramic view south" />
-				<p class="caption">Al sur, el Valle del Genal y el Mediterráneo al fondo</p>
+				<p class="caption">{$t('landPage.viewSouth')}</p>
 			</div>
 			<div class="panorama-item">
 				<img src="/images/riscos.gif" alt="Rocky peaks view" />
-				<p class="caption">Al norte, "Los Riscos" y la Serranía de Ronda</p>
+				<p class="caption">{$t('landPage.viewNorth')}</p>
 			</div>
 		</div>
 	</div>
@@ -119,21 +119,21 @@
 <!-- Water Features Section -->
 <section class="water-section">
 	<div class="container">
-		<h2>Presencia del Agua</h2>
-		<p class="lead">La finca linda con el Arroyo Blanco con pozas y cascadas para el baño. El Río Genal está cerca, y cuenta con grandes pozas de agua cristalina, nacimientos de agua, cascadas...</p>
+		<h2>{$t('landPage.waterPresence')}</h2>
+		<p class="lead">{$t('landPage.waterPresenceDesc')}</p>
 		
 		<div class="water-gallery">
 			<div class="water-item large">
 				<img src="/images/pozas.jpg" alt="Natural swimming pools" />
-				<p class="caption">Nacimiento del Río Genal</p>
+				<p class="caption">{$t('landPage.genalSource')}</p>
 			</div>
 			<div class="water-item">
 				<img src="/images/poza.JPG" alt="Water feature" />
-				<p class="caption">Cascadas del Arroyo Blanco en la propia finca</p>
+				<p class="caption">{$t('landPage.arroyoCascadas')}</p>
 			</div>
 			<div class="water-item">
 				<img src="/images/aguas-de-genal.jpg" alt="Genal river waters" />
-				<p class="caption">Pozas cristalinas del Río Genal</p>
+				<p class="caption">{$t('landPage.genalPozas')}</p>
 			</div>
 		</div>
 	</div>
@@ -175,12 +175,12 @@
 				
 				<div class="access-features">
 					<div class="access-feature">
-						<h3>Current</h3>
-						<p>40 min to Marbella<br/>15 min to Ronda</p>
+						<h3>{$t('landPage.current')}</h3>
+						<p>{$t('landPage.currentTimes')}</p>
 					</div>
 					<div class="access-feature future">
-						<h3>Future</h3>
-						<p>Road expansion planned<br/>Reduced travel times</p>
+						<h3>{$t('landPage.future')}</h3>
+						<p>{$t('landPage.futureTimes')}</p>
 					</div>
 				</div>
 			</div>

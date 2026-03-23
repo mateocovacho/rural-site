@@ -52,7 +52,9 @@ const translations = {
 		hero: {
 			title: 'Cartajima. Valle del Genal. 78,000 m².',
 			subtitle: 'THE FUTURE OF LUXURY. INTIMACY AND CONNECTION WITH NATURE',
-			license: 'PROPERTY WITH LICENSE FOR ECORESORT DEVELOPMENT'
+			license: 'PROPERTY WITH LICENSE FOR ECORESORT DEVELOPMENT',
+			ownerNote: 'OWNER\'S NOTE',
+			readVision: 'My Vision →'
 		},
 		vision: {
 			title: 'Project',
@@ -81,7 +83,7 @@ const translations = {
 			description: 'More than 20 years since acquiring the estate, waiting for the alignment of Ayuntamiento, Junta de Andalucía, and Diputación de Málaga. The license is now secured, but family and personal circumstances have changed.'
 		},
 		cta: {
-			view: 'View Action Project',
+			view: 'View Plans',
 			contact: 'Contact',
 			invitation: 'An invitation to continue the legacy',
 			tagline: 'The license is ready. The vision is clear. The timing is now.'
@@ -90,6 +92,7 @@ const translations = {
 			title: 'Project',
 			layout: 'The Layout',
 			layoutDesc: 'Ten small houses distributed across 40,000 m² to ensure each guest experiences total privacy and immersion in nature.',
+			projectLabel: 'Project',
 			centralTitle: 'The Central House',
 			centralDesc: 'A gathering space for events, courses, and community. The balance between private retreat and social connection.',
 			centralFeatures: {
@@ -99,6 +102,10 @@ const translations = {
 			},
 			landTitle: 'Land Division',
 			landDesc: 'The project occupies 2 of 4 parcels, leaving 2 additional parcels available for expansion or alternative uses.',
+			parcelProject: 'PARCEL FOR PROJECT',
+			parcelOther: 'PARCEL FOR OTHER USES',
+			parcelProjectSize: '40,000 m²',
+			parcelOtherSize: '38,000 m²',
 			infrastructure: 'Infrastructure',
 			infrastructureDesc: 'Water supply from village connection and natural spring. Electricity post on the estate. South-facing orientation with moderate slope.',
 			infraFeatures: {
@@ -120,14 +127,28 @@ const translations = {
 		},
 		landPage: {
 			title: 'The Land',
+			sierraTitle: 'Sierra de Ronda',
+			sierraDesc: 'The Serranía de Ronda, in the province of Málaga, is one of the most complete destinations in Andalusia, combining monumental historical heritage with spectacular natural landscapes and a network of picturesque "white villages".',
 			valleTitle: 'Valle del Genal',
 			valleDesc: 'A valley of singular beauty, protected for its exceptional chestnut forest landscape. The golden autumn colors of the chestnut trees draw visitors from across the world.',
 			cartajimaTitle: 'Cartajima',
 			cartajimaDesc: 'The highest entry point to the valley. A white village (pueblo blanco) perched on the mountainside, offering dramatic views and traditional Andalusian character.',
 			waterTitle: 'Water Features',
 			waterDesc: 'Arroyo Blanco runs along the southern boundary with natural waterfalls and pools. The estate enjoys direct access to swimming holes carved by centuries of flowing water.',
+			waterPresence: 'Water Presence',
+			waterPresenceDesc: 'The estate borders Arroyo Blanco with pools and waterfalls for bathing. The Río Genal is nearby, with large crystal-clear pools, natural springs, waterfalls...',
+			genalSource: 'Source of Río Genal',
+			arroyoCascadas: 'Arroyo Blanco waterfalls on the estate',
+			genalPozas: 'Crystal-clear pools of Río Genal',
 			accessTitle: 'Accessibility',
 			accessDesc: 'Currently 40 minutes from Marbella, 15 minutes from Ronda — the two most visited destinations in Málaga. Road expansion planned for the coming years will reduce these times significantly.',
+			viewsFromEstate: 'The Views from the estate',
+			viewSouth: 'To the south, Valle del Genal and the Mediterranean in the background',
+			viewNorth: 'To the north, "Los Riscos" and Serranía de Ronda',
+			current: 'Current',
+			future: 'Future',
+			currentTimes: '40 min to Marbella, 15 min to Ronda',
+			futureTimes: 'Road expansion planned, Reduced travel times',
 			captions: {
 				pozas: 'Natural pools — crystal clear water',
 				cascadas: 'Arroyo Blanco waterfalls',
@@ -194,7 +215,9 @@ const translations = {
 		hero: {
 			title: 'Cartajima. Valle del Genal. 78.000 m².',
 			subtitle: 'EL FUTURO DEL LUJO. INTIMIDAD Y CONEXIÓN CON LA NATURALEZA',
-			license: 'FINCA CON LICENCIA PARA DESARROLLO DE ECORESORT'
+			license: 'FINCA CON LICENCIA PARA DESARROLLO DE ECORESORT',
+			ownerNote: 'NOTA DEL PROPIETARIO',
+			readVision: 'Mi visión →'
 		},
 		vision: {
 			title: 'Proyecto',
@@ -223,7 +246,7 @@ const translations = {
 			description: 'Más de 20 años desde la adquisición de la finca, esperando la alineación del Ayuntamiento, Junta de Andalucía y Diputación de Málaga. La licencia está asegurada, pero las circunstancias familiares y personales han cambiado.'
 		},
 		cta: {
-			view: 'Ver Proyecto de Actuación',
+			view: 'Ver Planos',
 			contact: 'Contacto',
 			invitation: 'Una invitación para continuar el legado',
 			tagline: 'La licencia está lista. La visión es clara. El momento es ahora.'
@@ -232,6 +255,7 @@ const translations = {
 			title: 'Proyecto',
 			layout: 'La Distribución',
 			layoutDesc: 'Diez casitas distribuidas en 40.000 m² para garantizar que cada huésped experimente total privacidad e inmersión en la naturaleza.',
+			projectLabel: 'Proyecto',
 			centralTitle: 'La Casa Central',
 			centralDesc: 'Un espacio de encuentro para eventos, cursos y comunidad. El equilibrio entre retiro privado y conexión social.',
 			centralFeatures: {
@@ -241,6 +265,10 @@ const translations = {
 			},
 			landTitle: 'División de la Finca',
 			landDesc: 'El proyecto ocupa 2 de 4 parcelas, dejando 2 parcelas adicionales disponibles para expansión o usos alternativos.',
+			parcelProject: 'PARCELA PARA PROYECTO',
+			parcelOther: 'PARCELA PARA OTROS USOS',
+			parcelProjectSize: '40.000 m²',
+			parcelOtherSize: '38.000 m²',
 			infrastructure: 'Infraestructura',
 			infrastructureDesc: 'Suministro de agua del pueblo y manantial natural. Poste de electricidad en la finca. Orientación sur con pendiente moderada.',
 			infraFeatures: {
@@ -262,14 +290,28 @@ const translations = {
 		},
 		landPage: {
 			title: 'Entorno',
+			sierraTitle: 'Sierra de Ronda',
+			sierraDesc: 'La Serranía de Ronda, en la provincia de Málaga, es uno de los destinos más completos de Andalucía, combinando un patrimonio histórico monumental con paisajes naturales espectaculares y una red de pintorescos "pueblos blancos".',
 			valleTitle: 'Valle del Genal',
 			valleDesc: 'Un valle de belleza singular, protegido por su excepcional paisaje de bosque de castaño. Los dorados colores otoñales de los castaños atraen visitantes de todo el mundo.',
 			cartajimaTitle: 'Cartajima',
 			cartajimaDesc: 'La entrada más alta al valle. Un pueblo blanco encaramado en la ladera de la montaña, ofreciendo vistas dramáticas y carácter andaluz tradicional.',
 			waterTitle: 'Características del Agua',
 			waterDesc: 'El Arroyo Blanco discurre por el límite sur con cascadas y pozas naturales. La finca disfruta de acceso directo a pozas de baño talladas por siglos de agua fluyente.',
+			waterPresence: 'Presencia del Agua',
+			waterPresenceDesc: 'La finca linda con el Arroyo Blanco con pozas y cascadas para el baño. El Río Genal está cerca, y cuenta con grandes pozas de agua cristalina, nacimientos de agua, cascadas...',
+			genalSource: 'Nacimiento del Río Genal',
+			arroyoCascadas: 'Cascadas del Arroyo Blanco en la propia finca',
+			genalPozas: 'Pozas cristalinas del Río Genal',
 			accessTitle: 'Accesibilidad',
 			accessDesc: 'Actualmente a 40 minutos de Marbella, 15 minutos de Ronda — los dos destinos más visitados de Málaga. Se prevé la ampliación de la carretera en los próximos años que reducirá estos tiempos significativamente.',
+			viewsFromEstate: 'Las Vistas desde la finca',
+			viewSouth: 'Al sur, el Valle del Genal y el Mediterráneo al fondo',
+			viewNorth: 'Al norte, "Los Riscos" y la Serranía de Ronda',
+			current: 'Actual',
+			future: 'Futuro',
+			currentTimes: '40 min a Marbella, 15 min a Ronda',
+			futureTimes: 'Ampliación de carretera prevista, Tiempos reducidos',
 			captions: {
 				pozas: 'Las pozas — piscinas naturales de agua cristalina',
 				cascadas: 'Cascadas del Arroyo Blanco',

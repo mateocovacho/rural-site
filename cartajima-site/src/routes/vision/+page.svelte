@@ -18,7 +18,7 @@
 	<div class="container-wide">
 		<div class="layout-grid">
 			<div class="layout-content">
-				<h2>Proyecto</h2>
+				<h2>{$t('visionPage.projectLabel')}</h2>
 				<p class="lead">{$t('visionPage.layoutDesc')}</p>
 				
 				<div class="specs-grid">
@@ -27,7 +27,7 @@
 						<span class="spec-label">{$t('visionPage.specs.casitas')}</span>
 					</div>
 					<div class="spec-item">
-						<span class="spec-value">78k</span>
+						<span class="spec-value">40k</span>
 						<span class="spec-label">{$t('visionPage.specs.land')}</span>
 					</div>
 					<div class="spec-item">
@@ -53,12 +53,12 @@
 				
 				<div class="land-diagram">
 					<div class="parcel project">
-						<span class="parcel-label">PARCELA PARA PROYECTO</span>
-						<span class="parcel-count">40.000M²</span>
+						<span class="parcel-label">{$t('visionPage.parcelProject')}</span>
+						<span class="parcel-count">{$t('visionPage.parcelProjectSize')}</span>
 					</div>
 					<div class="parcel available">
-						<span class="parcel-label">PARCELA PARA OTROS USOS</span>
-						<span class="parcel-count">38.000M²</span>
+						<span class="parcel-label">{$t('visionPage.parcelOther')}</span>
+						<span class="parcel-count">{$t('visionPage.parcelOtherSize')}</span>
 					</div>
 				</div>
 			</div>

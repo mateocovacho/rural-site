@@ -38,8 +38,8 @@
 		</div>
 		<p class="subtitle">{$t('hero.subtitle')}</p>
 		<div class="owner-note">
-			<span class="owner-label">NOTA DEL PROPIETARIO</span>
-			<a href="/nota-propietario" class="owner-link">Leer la visión completa →</a>
+			<span class="owner-label">{$t('hero.ownerNote')}</span>
+			<a href="/nota-propietario" class="owner-link">{$t('hero.readVision')}</a>
 		</div>
 	</div>
 	<div class="hero-image">
@@ -55,7 +55,7 @@
 				<h2>{$t('vision.title')}</h2>
 				<p class="lead">{$t('vision.description')}</p>
 				
-				<a href="/01_PROYECTO DE ACTUACIÓN_ ECOTURISMO_CARTAJIMA_signed_F.pdf" class="btn btn-primary" target="_blank">{$t('cta.view')}</a>
+				<a href="/Planos.pdf" class="btn btn-primary" target="_blank">{$t('cta.view')}</a>
 			</div>
 			<div class="vision-image">
 				<img src="/images/IMG_1822.JPG" alt="Valle del Genal landscape" />
