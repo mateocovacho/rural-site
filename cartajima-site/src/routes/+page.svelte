@@ -126,7 +126,8 @@
 				<p>{$t('location.ronda')}</p>
 			</div>
 			<div class="location-card">
-				<span class="location-label">{$t('location.sierra')}</span>
+				<span class="time">1h 45</span>
+				<p>{$t('location.sierra')}</p>
 			</div>
 		</div>
 		

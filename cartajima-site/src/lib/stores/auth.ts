@@ -4,8 +4,8 @@ import { browser } from '$app/environment';
 // Agency passwords mapping
 const AGENCY_PASSWORDS: Record<string, string> = {
 	'sothebys2024': 'Sotheby\'s International Realty',
-	'knightfrank2024': 'Knight Frank',
-	'villasfincas2024': 'Villas & Fincas',
+	'Agente2': 'Knight Frank',
+	'Agente1': 'Villas & Fincas',
 	'cartajima2024': 'Direct Access'
 };
 

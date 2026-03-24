@@ -62,9 +62,9 @@ const translations = {
 		},
 		location: {
 			title: 'Location',
-			marbella: '40 min to Marbella',
-			ronda: '15 min to Ronda',
-			sierra: '1h 45 min from Málaga',
+			marbella: 'to Marbella',
+			ronda: 'to Ronda',
+			sierra: 'from Málaga',
 			description: 'Cartajima marks the highest entry point to Valle del Genal, a valley of singular landscape beauty protected for its unique chestnut forests.',
 			gps: '36°37\'39.2"N 5°09\'39.7"W'
 		},
@@ -257,9 +257,9 @@ const translations = {
 		},
 		location: {
 			title: 'Ubicación',
-			marbella: '40 min a Marbella',
-			ronda: '15 min a Ronda',
-			sierra: '1h 45 min de Málaga',
+			marbella: 'a Marbella',
+			ronda: 'a Ronda',
+			sierra: 'de Málaga',
 			description: 'Cartajima marca la entrada más alta al Valle del Genal, un valle de belleza paisajística singular protegido por sus únicos bosques de castaño.',
 			gps: '36°37\'39.2"N 5°09\'39.7"W'
 		},
