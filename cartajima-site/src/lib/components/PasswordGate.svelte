@@ -80,7 +80,19 @@
 	form {
 		display: flex;
 		flex-direction: column;
-		gap: 1rem;
+	}
+	
+	form > * + * {
+		margin-top: 1rem;
+	}
+	
+	@supports (gap: 1px) {
+		form {
+			gap: 1rem;
+		}
+		form > * + * {
+			margin-top: 0;
+		}
 	}
 	
 	input {

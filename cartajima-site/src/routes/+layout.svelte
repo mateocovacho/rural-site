@@ -2,8 +2,14 @@
 	import '../lib/styles/global.css';
 	import PasswordGate from '$lib/components/PasswordGate.svelte';
 	import Navigation from '$lib/components/Navigation.svelte';
+	import { onMount } from 'svelte';
+	import { trackVisit } from '$lib/analytics/visitor';
 	
 	let { children } = $props();
+	
+	onMount(() => {
+		trackVisit();
+	});
 </script>
 
 <svelte:head>

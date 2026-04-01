@@ -200,8 +200,20 @@
 		border-left: 3px solid var(--color-accent-earth);
 		display: flex;
 		flex-direction: column;
-		gap: 0.5rem;
 		align-items: flex-start;
+	}
+	
+	.owner-note > * + * {
+		margin-top: 0.5rem;
+	}
+	
+	@supports (gap: 1px) {
+		.owner-note {
+			gap: 0.5rem;
+		}
+		.owner-note > * + * {
+			margin-top: 0;
+		}
 	}
 	
 	.owner-label {
@@ -463,13 +475,25 @@
 	.doc-card {
 		display: flex;
 		align-items: center;
-		gap: 1.25rem;
 		padding: 1.25rem 1.5rem;
 		background: var(--color-bg-secondary);
 		border-radius: 6px;
 		text-decoration: none;
 		transition: all 0.2s;
 		border: 1px solid transparent;
+	}
+	
+	.doc-card > * + * {
+		margin-left: 1.25rem;
+	}
+	
+	@supports (gap: 1px) {
+		.doc-card {
+			gap: 1.25rem;
+		}
+		.doc-card > * + * {
+			margin-left: 0;
+		}
 	}
 
 	.doc-card:hover {

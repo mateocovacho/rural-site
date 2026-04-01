@@ -1,5 +1,6 @@
 import { writable } from 'svelte/store';
 import { browser } from '$app/environment';
+import { trackVisit } from '../analytics/visitor';
 
 // Agency passwords mapping
 const AGENCY_PASSWORDS: Record<string, string> = {
@@ -32,6 +33,8 @@ export function login(password: string): boolean {
 		auth.set(authData);
 		if (browser) {
 			localStorage.setItem('cartajima_auth', JSON.stringify(authData));
+			// Track the visit specifically as this agency now
+			trackVisit(true);
 			// Log which agency accessed (for analytics)
 			console.log(`Access granted: ${agency}`);
 		}

@@ -132,15 +132,40 @@
 	.nav-right {
 		display: flex;
 		align-items: center;
-		gap: 2rem;
+	}
+	
+	/* Fallback for older Safari (pre-14.1) */
+	.nav-right > * + * {
+		margin-left: 2rem;
+	}
+	
+	@supports (gap: 1px) {
+		.nav-right {
+			gap: 2rem;
+		}
+		.nav-right > * + * {
+			margin-left: 0;
+		}
 	}
 	
 	.nav-links {
 		display: flex;
 		list-style: none;
-		gap: 2rem;
 		margin: 0;
 		padding: 0;
+	}
+	
+	.nav-links > li + li {
+		margin-left: 2rem;
+	}
+	
+	@supports (gap: 1px) {
+		.nav-links {
+			gap: 2rem;
+		}
+		.nav-links > li + li {
+			margin-left: 0;
+		}
 	}
 	
 	.nav-links a {
@@ -171,9 +196,21 @@
 	.lang-toggle {
 		display: flex;
 		align-items: center;
-		gap: 0.5rem;
 		font-family: var(--font-accent);
 		font-size: 0.8rem;
+	}
+	
+	.lang-toggle > * + * {
+		margin-left: 0.5rem;
+	}
+	
+	@supports (gap: 1px) {
+		.lang-toggle {
+			gap: 0.5rem;
+		}
+		.lang-toggle > * + * {
+			margin-left: 0;
+		}
 	}
 	
 	.lang-toggle button {
@@ -233,11 +270,24 @@
 			justify-content: flex-start;
 			align-items: flex-start;
 			padding: 5rem 2rem 2rem;
-			gap: 2rem;
 			transform: translateX(100%);
 			transition: transform 0.3s ease;
 			box-shadow: -4px 0 20px rgba(0, 0, 0, 0.1);
 			z-index: 100;
+		}
+		
+		.nav-right > * + * {
+			margin-left: 0;
+			margin-top: 2rem;
+		}
+		
+		@supports (gap: 1px) {
+			.nav-right {
+				gap: 2rem;
+			}
+			.nav-right > * + * {
+				margin-top: 0;
+			}
 		}
 		
 		.nav-right.open {
@@ -246,8 +296,21 @@
 		
 		.nav-links {
 			flex-direction: column;
-			gap: 1.5rem;
 			width: 100%;
+		}
+		
+		.nav-links > li + li {
+			margin-left: 0;
+			margin-top: 1.5rem;
+		}
+		
+		@supports (gap: 1px) {
+			.nav-links {
+				gap: 1.5rem;
+			}
+			.nav-links > li + li {
+				margin-top: 0;
+			}
 		}
 		
 		.nav-links a {
